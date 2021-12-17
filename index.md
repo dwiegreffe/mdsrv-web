@@ -61,14 +61,6 @@ Zooming by clicking an amino acid
 
 #### Distance Plots
 
-[![alt text](distance.png "View Distance Plot")](distance.png)
-
-Switch to RMSD plot
-
-[![alt text](rmsd.png "View RMSD Plot")](rmsd.png)
-
-***
-
 Add a new distance pair
 
 Toggle Selection Mode:
@@ -88,3 +80,33 @@ Add mates as a distance pair:
 
 Select distance pair for the plot visualization:
 [![alt text](select-distance.png "Select distance pair for the plot")](select-distance.png)
+
+***
+
+[![alt text](distance.png "View Distance Plot")](distance.png)
+
+Switch to RMSD plot
+
+[![alt text](rmsd.png "View RMSD Plot")](rmsd.png)
+
+***
+
+Select three mates for an angle group and add them:
+[![alt text](angle1.png "Add mates as an angle group")](angle1.png)
+
+Select angle group for the plot visualization:
+[![alt text](angle2.png "Select angle group")](angle2.png)
+
+Explore the angle plot:
+[![alt text](angle3.png "Explore angle plot")](angle3.png)
+
+***
+
+Select four mates for a dihedral group and add them:
+[![alt text](dihedral1.png "Add mates as a dihedral group")](dihedral1.png)
+
+Select angle group for the plot visualization:
+[![alt text](dihedral2.png "Select dihedral group")](dihedral2.png)
+
+Explore the angle plot:
+[![alt text](dihedral3.png "Explore dihedral plot")](dihedral3.png)a
