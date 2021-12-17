@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## MDsrv
 
-You can use the [editor on GitHub](https://github.com/dwiegreffe/mdsrv-web/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+MDsrv is a web tool for interactive and remote exploration of trajectories. In-
+teractive visualization of MD trajectories provides an instant, transparent, and
+intuitive understanding of complex dynamics, while sharing of MD trajecto-
+ries may generate transparency and trust, allowing collaboration, knowledge
+exchange, and data reuse.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Example sessions:
 
-```markdown
-Syntax highlighted code block
+[Alignment View](https://proteininformatics.informatik.uni-leipzig.de/?session-url=https%3A%2F%2Fremote.sca-ds.de%2Fget%2Fsession%2F9f89ab6d-cffe-4c62-bbfb-e04d2d4a1d17)
 
-# Header 1
-## Header 2
-### Header 3
+[Trajectory Streaming 1](https://proteininformatics.informatik.uni-leipzig.de/?session-url=https%3A%2F%2Fremote.sca-ds.de%2Fget%2Fsession%2F99f2becc-5a8c-4745-b74b-f40c21985e47)
 
-- Bulleted
-- List
+[Trajectory Streaming 2](https://proteininformatics.informatik.uni-leipzig.de/?session-url=https%3A%2F%2Fremote.sca-ds.de%2Fget%2Fsession%2F1dfedfe9-7b14-4447-b42e-3f2006665cef)
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dwiegreffe/mdsrv-web/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[RMSD Plot](https://proteininformatics.informatik.uni-leipzig.de/?session-url=https%3A%2F%2Fremote.sca-ds.de%2Fget%2Fsession%2F1dfedfe9-7b14-4447-b42e-3f2006665cef)
