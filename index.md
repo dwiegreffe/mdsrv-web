@@ -1,10 +1,6 @@
-## MDsrv
+## Introduction
 
-MDsrv is a web tool for interactive and remote exploration of trajectories. In-
-teractive visualization of MD trajectories provides an instant, transparent, and
-intuitive understanding of complex dynamics, while sharing of MD trajecto-
-ries may generate transparency and trust, allowing collaboration, knowledge
-exchange, and data reuse.
+MDsrv is a web tool for interactive and remote exploration of trajectories. Interactive visualization of MD trajectories provides an instant, transparent, and intuitive understanding of  complex dynamics, while sharing of MD trajectories may generate transparency and trust, allowing collaboration, knowledgeexchange, and data reuse.
 
 
 
