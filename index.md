@@ -25,7 +25,7 @@ MDsrv is a web tool for interactive and remote exploration of trajectories. Inte
 
 #### Select Remote Session:
 
-[![alt text](remotesession.png "Select Remote Session")](remotesession.png)
+[![alt text](remote.png "Select Remote Session")](remote.png)
 
 ***
 
