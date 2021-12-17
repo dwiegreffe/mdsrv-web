@@ -81,7 +81,6 @@ Explore the distance plot
 [![alt text](distance.png "View Distance Plot")](distance.png)
 
 Switch to RMSD plot
-
 [![alt text](rmsd.png "View RMSD Plot")](rmsd.png)
 
 ***
