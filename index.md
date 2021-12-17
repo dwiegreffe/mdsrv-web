@@ -5,7 +5,7 @@ title: MDsrv
 
 MDsrv is a web tool for interactive and remote exploration of trajectories. Interactive visualization of MD trajectories provides an instant, transparent, and intuitive understanding of  complex dynamics, while sharing of MD trajectories may generate transparency and trust, allowing collaboration, knowledgeexchange, and data reuse.
 
-![alt text](overview.png "Title")
+[![alt text](overview.png "Title")](overview.png)
 
 ***
 
@@ -25,48 +25,46 @@ MDsrv is a web tool for interactive and remote exploration of trajectories. Inte
 
 #### Select Remote Session:
 
-![alt text](remotesession.png "Select Remote Session")
+[![alt text](remotesession.png "Select Remote Session")](remotesession.png)
 
 ***
 
 #### View Alignment:
 
-![alt text](alignment1.png "View Alignment")
+[![alt text](alignment1.png "View Alignment")](alignment.png)
 
 Zooming by clicking an amino acid
 
-![alt text](alignment2.png "Select an amino acid to zoom")
+[![alt text](alignment2.png "Select an amino acid to zoom")](alignment2).png)
 
 ***
 
 #### Distance Plots
 
-![alt text](distance.png "View Distance Plot")
+[![alt text](distance.png "View Distance Plot")](distance.png)
 
 Switch to RMSD plot
 
-![alt text](rmsd.png "View RMSD Plot")
+[![alt text](rmsd.png "View RMSD Plot")](rmsd.png)
 
 ***
 
 Add a new distance pair
 
 Toggle Selection Mode:
-![alt text](toggle.png "Toggle Selection Mode")
+[![alt text](toggle.png "Toggle Selection Mode")](toggle.png)
 
 Select first mate:
-![alt text](select1.png "Select first mate")
+[![alt text](select1.png "Select first mate")](select1.png)
 
 Select second mate:
-![alt text](select2.png "Select second mate")
+[![alt text](select2.png "Select second mate")](select2.png)
 
 Toggle 'Add Menu':
-![alt text](add.png "Toggle Add Menu")
+[![alt text](add.png "Toggle Add Menu")](add.png)
 
 Add mates as a distance pair:
-![alt text](add-distance.png "Add mates as a distance pair")
+[![alt text](add-distance.png "Add mates as a distance pair")](add-distance.png)
 
 Select distance pair for the plot visualization:
-![alt text](select-distance.png "Select distance pair for the plot")
-
-[![test](select-distance.png)](select-distance.png)
+[![alt text](select-distance.png "Select distance pair for the plot")](select-distance.png)
