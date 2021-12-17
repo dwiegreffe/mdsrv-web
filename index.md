@@ -68,3 +68,5 @@ Add mates as a distance pair:
 
 Select distance pair for the plot visualization:
 ![alt text](select-distance.png "Select distance pair for the plot")
+
+[![test](select-distance.png)](select-distance.png)
