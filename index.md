@@ -35,7 +35,7 @@ MDsrv is a web tool for interactive and remote exploration of trajectories. Inte
 
 Zooming by clicking an amino acid
 
-[![alt text](alignment2.png "Select an amino acid to zoom")](alignment2).png)
+[![alt text](alignment2.png "Select an amino acid to zoom")](alignment2.png)
 
 ***
 
