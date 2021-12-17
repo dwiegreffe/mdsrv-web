@@ -20,3 +20,38 @@ MDsrv is a web tool for interactive and remote exploration of trajectories. Inte
 
 ### FAQ:
 
+#### Select Remote Session:
+
+![alt text](remotesession.png "Select Remote Session")
+
+#### View Alignment:
+
+![alt text](alignment1.png "Select Remote Session")
+
+Zooming by clicking an amino acid
+
+![alt text](alignment2.png "Select Remote Session")
+
+#### Distance Plots
+
+![alt text](distance.png "Select Remote Session")
+
+Switch to RMSD plot
+
+![alt text](rmsd.png "Select Remote Session")
+
+Add a new distance pair
+
+
+![alt text](toogle.png "Select Remote Session")
+
+
+![alt text](select1.png "Select Remote Session")
+
+![alt text](select2.png "Select Remote Session")
+
+![alt text](add.png "Select Remote Session")
+
+![alt text](add-distance.png "Select Remote Session")
+
+![alt text](select-distance.png "Select Remote Session")
