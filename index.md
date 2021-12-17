@@ -23,6 +23,7 @@ MDsrv is a web tool for interactive and remote exploration of trajectories. Inte
 #### Select Remote Session:
 
 ![alt text](remotesession.png "Select Remote Session")
+***
 
 #### View Alignment:
 
@@ -32,6 +33,8 @@ Zooming by clicking an amino acid
 
 ![alt text](alignment2.png "Select an amino acid to zoom")
 
+***
+
 #### Distance Plots
 
 ![alt text](distance.png "View Distance Plot")
@@ -40,18 +43,24 @@ Switch to RMSD plot
 
 ![alt text](rmsd.png "View RMSD Plot")
 
+***
+
 Add a new distance pair
 
-
+Toggle Selection Mode:
 ![alt text](toggle.png "Toggle Selection Mode")
 
+Select first mate:
+![alt text](select1.png "Select first mate")
 
-![alt text](select1.png "Select first first mate")
-
+Select second mate:
 ![alt text](select2.png "Select second mate")
 
+Toggle 'Add Menu':
 ![alt text](add.png "Toggle Add Menu")
 
+Add mates as a distance pair:
 ![alt text](add-distance.png "Add mates as a distance pair")
 
+Select distance pair for the plot visualization:
 ![alt text](select-distance.png "Select distance pair for the plot")
