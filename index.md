@@ -107,4 +107,4 @@ Select angle group for the plot visualization:
 [![alt text](dihedral2.png "Select dihedral group")](dihedral2.png)
 
 Explore the angle plot:
-[![alt text](dihedral3.png "Explore dihedral plot")](dihedral3.png)a
+[![alt text](dihedral3.png "Explore dihedral plot")](dihedral3.png)
