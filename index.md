@@ -31,6 +31,26 @@ MDsrv is a web tool for interactive and remote exploration of trajectories. Inte
 
 #### View Alignment:
 
+Import a clustal alignmentand the corresponding pdb files:
+
+[![alt text](openaln.png "Open alignment files")](openaln.png)
+
+Select correct chain for each pdb file:
+
+[![alt text](chain.png "Select chain")](chain.png)
+
+Select correct entity for each pdb file:
+
+[![alt text](entity.png "Select chain")](entity.png)
+
+Match the pdb files with the alignment:
+
+[![alt text](match.png "Select chain")](match.png)
+
+***
+
+Explore the sequence alignment:
+
 [![alt text](alignment1.png "View Alignment")](alignment.png)
 
 Zooming by clicking an amino acid
