@@ -7,6 +7,7 @@ MDsrv is a web tool for interactive and remote exploration of trajectories. Inte
 
 ![alt text](overview.png "Title")
 
+***
 
 ### Example sessions:
 
@@ -18,11 +19,14 @@ MDsrv is a web tool for interactive and remote exploration of trajectories. Inte
 
 <a href="https://proteininformatics.informatik.uni-leipzig.de/?session-url=https%3A%2F%2Fremote.sca-ds.de%2Fget%2Fsession%2F1dfedfe9-7b14-4447-b42e-3f2006665cef" target="_blank">RMSD Plot</a>
 
+***
+
 ### FAQ:
 
 #### Select Remote Session:
 
 ![alt text](remotesession.png "Select Remote Session")
+
 ***
 
 #### View Alignment:
