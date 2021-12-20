@@ -21,5 +21,5 @@ MDsrv is a web tool for interactive and remote exploration of trajectories. Inte
 
 ***
 
-[FAQ](./another-page.html).
+[FAQ](./faq.html).
 
