@@ -5,7 +5,7 @@ title: MDsrv
 ### FAQ:
 
 
-[Remote Sesssions](remote.html)
+[Remote Sessions](remote.html)
 
 [Alignment View](alignment.html)
 
