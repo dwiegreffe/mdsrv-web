@@ -19,4 +19,4 @@ To create a new session, open an empty client. Then one can add structures, traj
 If one wants to use one's own remote server to stream the trajectories, one can exchange the URL of the remote server:
 
 
-[![alt text](remote.png "Change Remote Server URL")](remote-change.png)
+[![alt text](remote-change.png "Change Remote Server URL")](remote-change.png)
