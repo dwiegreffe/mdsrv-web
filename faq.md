@@ -86,7 +86,7 @@ See FAQs
 
 #### How do I install a MDsrv server on my machine (Setting up your own server and viewer:)?
 
-See: https://github.com/dwiegreffe/mdsrv README.md
+See: [https://github.com/dwiegreffe/mdsrv](https://github.com/dwiegreffe/mdsrv) README.md
 
 #### How do I add a trajectory to my own MDsrv server?
 
