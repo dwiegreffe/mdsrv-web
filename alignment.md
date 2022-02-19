@@ -2,10 +2,6 @@
 title: MDsrv
 ---
 
-
-
-
-
 #### View Alignment:
 
 Import a clustal alignmentand the corresponding pdb files:

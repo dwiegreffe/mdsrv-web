@@ -72,6 +72,10 @@ Through our server:
 7. Click the Upload button
 8. To share your session with others, right-click your session to open it in a new tab with its URL and share that URL.
 
+A guide with screenshots can be found at [Remote Sessions](remote.html)
+
+Setting up your own MDsrv, see FAQs "How do I install a MDsrv server on my 
+
 #### How can I share my trajectory?
 
 See FAQ: "How can I share the session I have prepared?"
@@ -84,7 +88,7 @@ See FAQs
 - "How do I add a trajectory to my own MDsrv server?"
 - "How do I stream a trajectory from the MDsrv server?"
 
-#### How do I install a MDsrv server on my machine (Setting up your own server and viewer:)?
+#### How do I install a MDsrv server on my machine (Setting up your own server and viewer)?
 
 See: [https://github.com/dwiegreffe/mdsrv](https://github.com/dwiegreffe/mdsrv) README.md
 
@@ -112,7 +116,6 @@ Currently, only trajectories in the XTC format can be streamed.
 6. Select this structure via the Model parameter. 
 7. Select Add Xtc Stream Trajectory.
 
-A guide with screenshots can be found at [Remote Sessions](remote.html)
 
 #### Do I need a public IP to share data with the world?
 	
@@ -155,9 +158,9 @@ A guide with screenshots can be found at [Alignment View](alignment.html)
 
 A guide with screenshots can be found at [Distance Plots](distances.html)
 
-#### How can I visualize trajectories that are stored on another server?
+#### How can I visualize trajectories that are stored on another server that is not an MDsrv?
 
-You will need to download the trajectory to have it locally available on your computer. Then you can follow the steps in FAQ "How can I visualize my trajectory?"
+You will need to download the trajectory to have it locally available on your computer. Then you can follow the steps in FAQ “How can I visualize my trajectory?” to import it locally, or follow the steps in FAQs "How do I add a trajectory to my own MDsrv server?" to add the trajectory to your own MDsrv for streaming.
 	
 #### Can I upload both my own and public data?
 
@@ -174,17 +177,3 @@ See FAQ: "How can I import a structure?"
 #### Do I have to install MDsrv myself to visualize and share my trajectories?
 	
 No, you can use our server to visualize and share your trajectories. See FAQ: "How can I share my trajectory?"
-
-
-#### Examples:
-
-To view the line chart of the example, you need to open the Extensions panel at the bottom and then open the Measurement Line Plot menu in the Extensions panel. In the lower-left corner of the white canvas you can see the progress of the measurement calculation. After the calculation is complete, the measurement is available in the Measurement Line Plot menu. 
-
-To view the sequence alignment of the example, you need to open the Extensions panel at the bottom and then open the Sequence Alignment menu in the Extensions panel. You can hover over the residues to highlight them in the canvas. You can focus on a single residue by clicking on it.
-
-In the following examples, the trajectories are stored on our server. During the streaming of a trajectory, only a single frame is fetched to display it. This makes it possible to visualize trajectories that would otherwise be much too large for the available memory of the browser (as in example 5). If a trajectory is streamed from the server, it is still possible to calculate line plots for the measurements.
-
-
-
-
-[Remote Sessions](remote.html)
