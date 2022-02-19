@@ -4,7 +4,7 @@ title: MDsrv
 
 #### Examples
 
-In the following examples, the trajectories are stored on our server. During the streaming of a trajectory, only a single frame is fetched to display it. This makes it possible to visualize trajectories that would otherwise be much too large for the available memory of the browser (as in example 5). If a trajectory is streamed from the server, it is still possible to calculate line plots for the measurements.
+In the following examples, the trajectories are stored on our server. During the streaming of a trajectory, only a single frame is fetched to display it. This makes it possible to visualize trajectories that would otherwise be much too large for the available memory of the browser (as in example 3). If a trajectory is streamed from the server, it is still possible to calculate line plots for the measurements.
 
 
 

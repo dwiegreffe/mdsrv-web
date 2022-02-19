@@ -74,7 +74,7 @@ Through our server:
 
 A guide with screenshots can be found at [Remote Sessions](remote.html)
 
-Setting up your own MDsrv, see FAQs "How do I install a MDsrv server on my 
+Setting up your own MDsrv, see FAQs "How do I install a MDsrv server on my machine".
 
 #### How can I share my trajectory?
 
