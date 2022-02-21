@@ -6,10 +6,7 @@ title: MDsrv
 
 - [How can I import a structure?](#import-str)
 - [How can I import a trajectory?](#import-tr)
-	- [Thema 1](#thema1)
-	- [Thema 2](#thema2)
-	- [Thema 3](#thema3)	
-- [Schluß](#schluss)
+- [How can I assign a trajectory to a structure?](#assign-str)
 
 *****
 
@@ -38,14 +35,14 @@ You can import a structure by
 4. Enter the URL of the file you want to import.
 5. Select Apply.
 
-
+<a name="import-tr"></a>
 #### How can I import a trajectory?
 
 You can import a trajectory by
-- importing it from a public server (see FAQ "How can I import a structure?")
-- providing the trajectory file yourself (see FAQ "How can I import a structure?") 
-However, you also need to import a structure so that the trajectory can be matched to it. To match the trajectory to a structure, see FAQ "How can I assign a trajectory to a structure?".
-
+- importing it from a public server (see FAQ [How can I import a structure?](#import-str))
+- providing the trajectory file yourself (see FAQ [How can I import a structure?](#import-str))   
+However, you also need to import a structure so that the trajectory can be matched to it. To match the trajectory to a structure, see FAQ [How can I assign a trajectory to a structure?](#assign-str).
+<a name="assign-tr"></a>
 #### How can I assign a trajectory to a structure?
 
 To match a trajectory to a structure, you must first import both (see FAQs "How do I import a structure?" and "How do I import a trajectory?"). 
