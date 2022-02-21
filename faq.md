@@ -7,7 +7,9 @@ title: MDsrv
 - [How can I import a structure?](#import-str)
 - [How can I import a trajectory?](#import-tr)
 - [How can I assign a trajectory to a structure?](#assign-str)
-
+- [How can I visualize my trajectory?](#vis-tr)
+- [How do I play my trajectory?](#play-tr)
+- [How can I share the session I have prepared?](#share-session)
 *****
 
 <a name="import-str"></a>
@@ -42,10 +44,11 @@ You can import a trajectory by
 - importing it from a public server (see FAQ [How can I import a structure?](#import-str))
 - providing the trajectory file yourself (see FAQ [How can I import a structure?](#import-str))   
 However, you also need to import a structure so that the trajectory can be matched to it. To match the trajectory to a structure, see FAQ [How can I assign a trajectory to a structure?](#assign-str).
+
 <a name="assign-tr"></a>
 #### How can I assign a trajectory to a structure?
 
-To match a trajectory to a structure, you must first import both (see FAQs "How do I import a structure?" and "How do I import a trajectory?"). 
+To match a trajectory to a structure, you must first import both (see FAQs [How can I import a structure?](#import-str) and [How can I import a trajectory?](#import-tr)). 
 1. Open the Home panel on the left-hand side.
 2. Open the Add Trajectory menu in the Home panel.
 3. Select the structure and trajectory you want to match:
@@ -53,18 +56,22 @@ To match a trajectory to a structure, you must first import both (see FAQs "How 
 - Coordinates: the trajectory you want to match to the structure
 4. Select Apply.
 
+
+<a name="vis-tr"></a>
 #### How can I visualize my trajectory?
 
 To visualize your trajectory follow the following steps in the FAQs
-- "How can I import a trajectory?"
-- "How can I assign a trajectory to a structure?"
-- "How do I play my trajectory?"
+- [How can I import a structure?](#import-str)
+- [How can I assign a trajectory to a structure?](#assign-str)
+- [How do I play my trajectory?](#play-tr)
 
+<a name="play-tr"></a>
 #### How do I play my trajectory?
 
-You first need to import your trajectory (see FAQ "How can I visualize my trajectory?").
+You first need to import your trajectory (see FAQ [How can I visualize my trajectory?](#vis-tr)).
 After you imported your trajectory, a play button will appear in the top left corner of the white canvas where the structure is displayed.
 
+<a name="share-session"></a>
 #### How can I share the session I have prepared?
 
 You can share your session in several ways:
