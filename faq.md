@@ -13,7 +13,7 @@ title: MDsrv
 - [How can I share my trajectory?](#share-tr)
 - [My trajectory is too large to be displayed and the viewer crashed.](#tr-large)
 - [How do I install a MDsrv server on my machine (Setting up your own server and viewer)?](#install)
-- [How do I add a trajectory to my own MDsrv server?](#import-tr)
+- [How do I add a trajectory to my own MDsrv server?](#import-tr-md)
 - [How do I stream a trajectory from the MDsrv?](#stream)
 - [Do I need a public IP to share data with the world?](#public) 
 - [I developed a really nice representation and perspective on my trajectory. How do I save this and make it available for others?](#share) 
@@ -123,7 +123,7 @@ See FAQs
 
 See: [https://github.com/dwiegreffe/mdsrv](https://github.com/dwiegreffe/mdsrv) README.md
 
-<a name="import-tr"></a>
+<a name="import-tr-md"></a>
 #### How do I add a trajectory to my own MDsrv server?
 
 1. Add your trajectory into the trajectory folder of your server.
