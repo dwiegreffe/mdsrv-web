@@ -28,42 +28,40 @@ title: MDsrv
 
 
 <a name="import-str"></a>
-#### How can I import a structure?
+#### How can I import a structure or trajectory?
 
-You can import a structure by
+You can import a structure or trajectory by
 
-- providing the structure from your local machine
+- providing the files from your local machine
 1. Open the Home panel on the left-hand side.
 2. Open the Open Files menu in the Home panel.
-3. Select Select files... to upload the files you have stored locally.
+3. Select Select files... to choose which of the files you have stored locally to upload.
+- You can import multiple files at once.
+- If you are importing multiple files at once, that do not have the same format, the Format option should be set to Auto.
+- If you are importing only one file at a time, or if all files have the same format, you can also specify the format of the file. However, in most cases, this is not necessary.
 4. Select Apply.
 
 - using one of the common public servers
 1. Open the Home panel on the left-hand side.
 2. Open the Download Structure menu in the Home panel.
-3. Select the server you want (Source).
-4. Enter the id of the structure you want to import from the selected server.
+3. Select the server you want to download the structure or trajectory from as the Source.
+4. Enter the ID of the structure or trajectory you want to import from the selected server.
 5. Select Apply.
 
-- using any URL of servers where data is available
+- using the URL of a structure or trajectory file that is publicly available on another server:
 1. Open the Home panel on the left-hand side.
-2. Open the Download Structure menu in the Home panel.
-3. Select URL as the Source.
-4. Enter the URL of the file you want to import.
-5. Select Apply.
+2. Open the Download File menu in the Home panel.
+3. Enter the URL of the file.
+4. Select the correct format of the file for the Format parameter.
+5. Set the Binary parameter to On, if the file is binary.
+6. Select Apply.
 
-<a name="import-tr"></a>
-#### How can I import a trajectory?
-
-You can import a trajectory by
-- importing it from a public server (see FAQ [How can I import a structure?](#import-str))
-- providing the trajectory file yourself (see FAQ [How can I import a structure?](#import-str))   
-However, you also need to import a structure so that the trajectory can be matched to it. To match the trajectory to a structure, see FAQ [How can I assign a trajectory to a structure?](#assign-str).
+**Note**: When you import a trajectory file, like an xtc, you must also import a structure to which the trajectory can be matched. Otherwise you will not be able to play the trajectory. To match the trajectory to a structure, see FAQ: How can I assign a trajectory to a structure?
 
 <a name="assign-tr"></a>
 #### How can I assign a trajectory to a structure?
 
-To match a trajectory to a structure, you must first import both (see FAQs [How can I import a structure?](#import-str) and [How can I import a trajectory?](#import-tr)). 
+To match a trajectory to a structure, you must first import both ([How can I import a structure or trajectory?](#import-str)). 
 1. Open the Home panel on the left-hand side.
 2. Open the Add Trajectory menu in the Home panel.
 3. Select the structure and trajectory you want to match:
@@ -83,27 +81,34 @@ To visualize your trajectory follow the following steps in the FAQs
 <a name="play-tr"></a>
 #### How do I play my trajectory?
 
-You first need to import your trajectory (see FAQ [How can I visualize my trajectory?](#vis-tr)).
+You first need to import your trajectory ([How can I import a structure or trajectory?](#import-str)).
 After you imported your trajectory, a play button will appear in the top left corner of the white canvas where the structure is displayed.
+
+In case you provided the coordinate file of the trajectory yourself, you must also match it with a structure ([How can I assign a trajectory to a structure?](#assign-tr)).
+After matching the trajectory, you need to clean up the visualization.
+1. Open the State Tree panel on the left-hand side.
+2. Toggle the visibility for the two imported files (same name as the original files).
+Now only the matched result is visible in the representation.
 
 <a name="share-session"></a>
 #### How can I share the session I have prepared?
 
-You can share your session in several ways:
+You can share your your in two ways:
 
 Through our server:
-1. Import the structures and trajectories you want to share (see FAQs [How can I import a structure?](#import-str), [How can I import a trajectory?](#import-tr), and [How can I assign a trajectory to a structure?](#assign-str)).
-2. Prepare your trajectory as desired. 
-3. Open the Remote Session drop-down menu in the Extensions panel at the bottom.
+1. Import the structures and trajectories you want to share (see FAQs [How can I import a structure or trajectory?](#import-str), and [How can I assign a trajectory to a structure?](#assign-str)).
+2. Prepare your session as desired. 
+3. Open the Remote Session menu in the Extensions panel at the bottom.
 4. Name your session
-5. Optional: Enter a description by opening the Options area.
-6. Optional: Change the server address.
-7. Click the Upload button
-8. To share your session with others, right-click your session to open it in a new tab with its URL and share that URL.
+- Optional: Enter a description by opening the Options area.
+- Optional: Change the server address.
+5. Click the Upload button.
+6. To share your session with others, right-click your session to open it in a new tab with its URL and share that URL.
 
 A guide with screenshots can be found at [Remote Sessions](remote.html)
 
 Setting up your own MDsrv, see FAQs [How do I install a MDsrv server on my machine (Setting up your own server and viewer)?](#install).
+
 <a name="share-tr"></a>
 #### How can I share my trajectory?
 
@@ -144,11 +149,11 @@ Currently, only trajectories in the XTC format can be streamed.
 1. Open the Extensions panel at the bottom.
 2. Open the XTC Stream Trajectory menu in the Extensions panel.
 3. Enter the Server URL where the trajectory is stored (Must be an MDsrv instance).
-4. Select the trajectory you want to stream via the Trajectory parameter.
-5. Import the structure corresponding to the trajectory (see FAQ [How can I import a structure?](#import-str))
-6. Select this structure via the Model parameter. 
+4. Import the structure corresponding to the trajectory (see FAQ [How can I import a structure or trajectory?](#import-str)).
+5. Select this structure via the Model parameter. 
+6. Select the trajectory you want to stream via the Trajectory parameter.
 7. Select Add Xtc Stream Trajectory.
-
+8. You can now play your trajectory.
 
 <a name="public"></a>
 #### Do I need a public IP to share data with the world?
