@@ -12,7 +12,7 @@ MDsrv is a web tool for interactive and remote exploration of trajectories. Inte
    
 <center><button onclick="window.location.href = 'https://proteininformatics.informatik.uni-leipzig.de'">Start new Session</button></center>  
   
-    
+   <br/> 
 
 
 <iframe style="height:768px; width:1024px;" src="https://proteininformatics.informatik.uni-leipzig.de/embedded.html?session-url=https%3A%2F%2Fremote.sca-ds.de%2Fget%2Fsession%2F80de2863-618b-4e4d-b811-316027fed991">
