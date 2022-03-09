@@ -1,35 +1,7 @@
 #Bla
 
-<iframe>
-        <div id="app"></div>
-        <script type="text/javascript" src="./molstar.js"></script>
-        <script type="text/javascript">
-            molstar.Viewer.create('app', {
-                layoutIsExpanded: true,
-                layoutShowControls: true,
-                layoutShowRemoteState: false,
-                layoutShowSequence: true,
-                layoutShowLog: false,    
-                layoutShowLeftPanel: true,
+<iframe src=“https://proteininformatics.informatik.uni-leipzig.de/?session-url=https%3A%2F%2Fremote.sca-ds.de%2Fget%2Fsession%2F80de2863-618b-4e4d-b811-316027fed991“ height=“600″ width=“800″ name=“mdsrv“>
 
-                viewportShowExpand: true,  
-                viewportShowSelectionMode: false,
-                viewportShowAnimation: true,
-
-                pdbProvider: 'rcsb', 
-                emdbProvider: 'rcsb',
-            }).then(viewer => {
-
-             function getParam(name, regex) {
-                var r = new RegExp(name + '=' + '(' + regex + ')[&]?', 'i');
-                return decodeURIComponent(((window.location.search || '').match(r) || [])[1] || '');
-            }
-                var sessionUrl = getParam('session-url', '[^&]+').trim();
-                viewer.loadSessionFromUrl(sessionUrl);
-                //viewer.loadEmdb('EMD-30210', { detail: 6 });
-                // viewer.loadAllModelsOrAssemblyFromUrl('https://cs.litemol.org/5ire/full', 'mmcif', false, { representationParams: { theme: { globalName: 'operator-name' } } })
-            });
-        </script>
 </iframe>
 
 
