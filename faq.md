@@ -335,3 +335,29 @@ See FAQ: [How can I share my trajectory?](#share-tr)
 ## How can I change the coloring and representation of my molecules?
 
 ## How long are remote sessions available that I upload to the server?
+
+## I only want a specific part of my structure to be visible, how do I achieve this?
+
+## I added a measurement to my trajectory, but it is not updating when I change the frame?
+
+## I added a measurement to my trajectory, but there is no time-trace plot available?
+
+## I selected an amino acid in the seuquence view at the top to zoom into my trajectory, but I get an overlay of another structure. Why is this happening?
+
+## Can I download my viszualization as an image or video?
+
+## How do I add a measurement?
+
+## I want to select a chain or atom and not focus on it. How?
+
+## How can I open and close the panels?
+
+## Why do I not see a structure or trajectory?
+
+## Can I change the play mode of the trajectory?
+
+## Why is only part of my trajectory moving? Why is there an overlapping?
+
+## How do I get the URL to my saved session?
+
+## How can I add a sequence alignment
