@@ -25,10 +25,10 @@ title: MDsrv
 - [How to upload data from other public servers (such as the Protein Data Bank)?](#upload-pdb) 
 - [Do I have to install MDsrv myself to visualize and share my trajectories?](#install-myself) 
 
-<details style=' border-style:'solid border:2px '>
-    <summary>
-    ### How can I import a structure or trajectory? 
-    </summary>
+<details style=' border-style:solid border:2px '>
+    <summary style='color:#159957'><big>
+    How can I import a structure or trajectory? 
+    </big></summary>
 
 <p>
 You can import a structure or trajectory by
@@ -42,11 +42,13 @@ You can import a structure or trajectory by
         - If you are importing only one file at a time, or if all files have the same format, you can also specify the format of the file. However, in most cases, this is not necessary.
     4. Select Apply.
 
-<figure class='video_container'>
-    <video width='100%' controls='true' allowfullscreen='true' poster=''>
-        <source src='./videos/import_local_files.mp4' type='video/mp4'>
-    </video>
-</figure>
+<center>
+    <figure class='video_container'>
+        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/import_local_files.png'>
+            <source src='./videos/import_local_files.mp4' type='video/mp4'>
+        </video>
+    </figure>
+</center>
 
 - using one of the common public servers (like PDB)
     1. Open the Home panel on the left-hand side.
@@ -55,11 +57,13 @@ You can import a structure or trajectory by
     4. Enter the ID of the structure or trajectory you want to import from the selected server.
     5. Select Apply.
 
-<figure class='video_container'>
-    <video width='100%' controls='true' allowfullscreen='true' poster=''>
-        <source src='./videos/import_structure_id.mp4' type='video/mp4'>
-    </video>
-</figure>
+<center>
+    <figure class='video_container'>
+        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/import_structure_id.png'>
+            <source src='./videos/import_structure_id.mp4' type='video/mp4'>
+        </video>
+    </figure>
+</center>
 
 - using the URL of a structure or trajectory file that is publicly available on another server:
     1. Open the Home panel on the left-hand side.
@@ -69,11 +73,13 @@ You can import a structure or trajectory by
     5. Set the Binary parameter to On, if the file is binary.
     6. Select Apply.
 
-<figure class='video_container'>
-    <video width='100%' controls='true' allowfullscreen='true' poster=''>
-        <source src='./videos/import_via_url.mp4' type='video/mp4'>
-    </video>
-</figure>
+<center>
+    <figure class='video_container'>
+        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/import_via_url.png'>
+            <source src='./videos/import_via_url.mp4' type='video/mp4'>
+        </video>
+    </figure>
+</center>
 
 **Note**: When you import a trajectory file, like an xtc, you must also import a structure to which the trajectory can be matched. Otherwise you will not be able to play the trajectory. To match the trajectory to a structure, see FAQ: How can I assign a trajectory to a structure?
 
@@ -94,11 +100,13 @@ You can import a structure or trajectory by
         - If you are importing only one file at a time, or if all files have the same format, you can also specify the format of the file. However, in most cases, this is not necessary.
     4. Select Apply.
 
-<figure class='video_container'>
-    <video width='100%' controls='true' allowfullscreen='true' poster=''>
-        <source src='./videos/import_local_files.mp4' type='video/mp4'>
-    </video>
-</figure>
+<center>
+    <figure class='video_container'>
+        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/import_local_files.png'>
+            <source src='./videos/import_local_files.mp4' type='video/mp4'>
+        </video>
+    </figure>
+</center>
 
 - using one of the common public servers (like PDB)
     1. Open the Home panel on the left-hand side.
@@ -107,11 +115,13 @@ You can import a structure or trajectory by
     4. Enter the ID of the structure or trajectory you want to import from the selected server.
     5. Select Apply.
 
-<figure class='video_container'>
-    <video width='100%' controls='true' allowfullscreen='true' poster=''>
-        <source src='./videos/import_structure_id.mp4' type='video/mp4'>
-    </video>
-</figure>
+<center>
+    <figure class='video_container'>
+        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/import_structure_id.png'>
+            <source src='./videos/import_structure_id.mp4' type='video/mp4'>
+        </video>
+    </figure>
+</center>
 
 - using the URL of a structure or trajectory file that is publicly available on another server:
     1. Open the Home panel on the left-hand side.
@@ -121,11 +131,13 @@ You can import a structure or trajectory by
     5. Set the Binary parameter to On, if the file is binary.
     6. Select Apply.
 
-<figure class='video_container'>
-    <video width='100%' controls='true' allowfullscreen='true' poster=''>
-        <source src='./videos/import_via_url.mp4' type='video/mp4'>
-    </video>
-</figure>
+<center>
+    <figure class='video_container'>
+        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/import_via_url.png'>
+            <source src='./videos/import_via_url.mp4' type='video/mp4'>
+        </video>
+    </figure>
+</center>
 
 **Note**: When you import a trajectory file, like an xtc, you must also import a structure to which the trajectory can be matched. Otherwise you will not be able to play the trajectory. To match the trajectory to a structure, see FAQ: How can I assign a trajectory to a structure?
 
@@ -150,7 +162,7 @@ To match a trajectory to a structure, you must first import both ([How can I imp
 #### How can I visualize my trajectory?
 
 To visualize your trajectory follow the following steps in the FAQs
-- [How can I import a structure?](#import-str)
+- [How can I import a structure or trajectory?](#import-str)
 - [How can I assign a trajectory to a structure?](#assign-str)
 - [How do I play my trajectory?](#play-tr)
 
@@ -204,11 +216,23 @@ See FAQ: [How can I share the session I have prepared?](#share-session)
 <a name="tr-large"></a>
 #### My trajectory is too large to be displayed and the viewer crashed.
 	
-To share large trajectories, you need to set up your own server. 
+To share large trajectories, you either need to set up your own server:
 See FAQs 
 - "How do I install a MDsrv server on my machine"
 - "How do I add a trajectory to my own MDsrv server?"
 - "How do I stream a trajectory from the MDsrv server?"
+
+Or you can upload the trajectory to our server, so you can stream it frame by frame:
+The trajectory you want to store on our server must be publicly available on another server.
+1. Open the Extensions Panel at the bottom.
+2. Open the Add Trajectory to Stream Server menu.
+3. Optionally, if you want to upload the trajectory to another MDsrv instance, adjust the Servre parameter accordingly.
+4. Enter the URL of the trajectory file.
+5. Name the trajectory. (If there is already a trajectory with the same name, a message will appear in the Log panel. Please change the name.)
+6. Add a more detailed description for your trajectory.
+7. Select Upload Trajectory to Server.
+8. When the trajectory is successfully uploaded, a message appears in the Log panel.
+9. To visualize the uploaded trajectory, see FAQ: [How do I stream a trajectory from the MDsrv?](#stream).
 
 <a name="install"></a>
 #### How do I install a MDsrv server on my machine (Setting up your own server and viewer)?
