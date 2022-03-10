@@ -27,8 +27,8 @@ title: MDsrv
 - [Do I have to install MDsrv myself to visualize and share my trajectories?](#install-myself) 
 
 
-<details><summary>How can I import a structure or trajectory?</summary>
-<p>
+<details>
+<summary markdown='span'>How can I import a structure or trajectory?</summary>
 
 You can import a structure or trajectory by
 
@@ -41,9 +41,9 @@ You can import a structure or trajectory by
         - If you are importing only one file at a time, or if all files have the same format, you can also specify the format of the file. However, in most cases, this is not necessary.
     4. Select Apply.
 
-    <figure class="video_container">
-        <video controls="true" allowfullscreen="true" poster="">
-            <source src="./videos/import_local_files.mp4" type="video/mp4">
+    <figure class='video_container'>
+        <video width='100%' controls='true' allowfullscreen='true' poster=''>
+            <source src='./videos/import_local_files.mp4' type='video/mp4'>
         </video>
     </figure>
 
@@ -54,9 +54,9 @@ You can import a structure or trajectory by
     4. Enter the ID of the structure or trajectory you want to import from the selected server.
     5. Select Apply.
 
-    <figure class="video_container">
-        <video controls="true" allowfullscreen="true" poster="">
-            <source src="./videos/import_structure_id.mp4" type="video/mp4">
+    <figure class='video_container'>
+        <video width='100%' controls='true' allowfullscreen='true' poster=''>
+            <source src='./videos/import_structure_id.mp4' type='video/mp4'>
         </video>
     </figure>
 
@@ -68,15 +68,14 @@ You can import a structure or trajectory by
     5. Set the Binary parameter to On, if the file is binary.
     6. Select Apply.
 
-    <figure class="video_container">
-        <video controls="true" allowfullscreen="true" poster="">
-            <source src="./videos/import_via_url.mp4" type="video/mp4">
+    <figure class='video_container'>
+        <video width='100%' controls='true' allowfullscreen='true' poster=''>
+            <source src='./videos/import_via_url.mp4' type='video/mp4'>
         </video>
     </figure>
 
 **Note**: When you import a trajectory file, like an xtc, you must also import a structure to which the trajectory can be matched. Otherwise you will not be able to play the trajectory. To match the trajectory to a structure, see FAQ: How can I assign a trajectory to a structure?
 
-</p>
 </details>
 
 
@@ -94,9 +93,9 @@ You can import a structure or trajectory by
         - If you are importing only one file at a time, or if all files have the same format, you can also specify the format of the file. However, in most cases, this is not necessary.
     4. Select Apply.
 
-    <figure class="video_container">
-        <video controls="true" allowfullscreen="true" poster="">
-            <source src="./videos/import_local_files.mp4" type="video/mp4">
+    <figure class='video_container'>
+        <video width='100%' controls='true' allowfullscreen='true' poster=''>
+            <source src='./videos/import_local_files.mp4' type='video/mp4'>
         </video>
     </figure>
 
@@ -107,9 +106,9 @@ You can import a structure or trajectory by
     4. Enter the ID of the structure or trajectory you want to import from the selected server.
     5. Select Apply.
 
-    <figure class="video_container">
-        <video controls="true" allowfullscreen="true" poster="">
-            <source src="./videos/import_structure_id.mp4" type="video/mp4">
+    <figure class='video_container'>
+        <video width='100%' controls='true' allowfullscreen='true' poster=''>
+            <source src='./videos/import_structure_id.mp4' type='video/mp4'>
         </video>
     </figure>
 
@@ -121,9 +120,9 @@ You can import a structure or trajectory by
     5. Set the Binary parameter to On, if the file is binary.
     6. Select Apply.
 
-    <figure class="video_container">
-        <video controls="true" allowfullscreen="true" poster="">
-            <source src="./videos/import_via_url.mp4" type="video/mp4">
+    <figure class='video_container'>
+        <video width='100%' controls='true' allowfullscreen='true' poster=''>
+            <source src='./videos/import_via_url.mp4' type='video/mp4'>
         </video>
     </figure>
 
