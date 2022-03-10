@@ -2,32 +2,9 @@
 title: MDsrv
 ---
 
-### FAQ:
+# Tutorials
 
-- [How can I import a structure?](#import-str)
-- [How can I assign a trajectory to a structure?](#assign-str)
-- [How can I visualize my trajectory?](#vis-tr)
-- [How do I play my trajectory?](#play-tr)
-- [How can I share the session I have prepared?](#share-session)
-- [How can I share my trajectory?](#share-tr)
-- [How can I upload a trajectory to the Mdsrv?](#upload-tr)
-- [My trajectory is too large to be displayed and the viewer crashed.](#tr-large)
-- [How do I install a MDsrv server on my machine (Setting up your own server and viewer)?](#install)
-- [How do I add a trajectory to my own MDsrv server?](#import-tr-md)
-- [How do I stream a trajectory from the MDsrv?](#stream)
-- [Do I need a public IP to share data with the world?](#public) 
-- [I developed a really nice representation and perspective on my trajectory. How do I save this and make it available for others?](#share) 
-- [How to align two or more structures based on an already calculated alignment?](#align) 
-- [How can I import an alignment?](#import-align) 
-- [How can I plot distances/angles/dihedrals of selected atoms throughout my trajectories?](#distance-plot) 
-- [How can I visualize trajectories that are stored on another server that is not an MDsrv?](#vis-other) 
-- [Can I upload both my own and public data?](#data) 
-- [How to upload local data (from my computer) to a running server?](#upload) 
-- [How to upload data from other public servers (such as the Protein Data Bank)?](#upload-pdb) 
-- [Do I have to install MDsrv myself to visualize and share my trajectories?](#install-myself) 
-
-<a name="import-str"></a>
-## How can I import a structure or trajectory?
+## Importing structures and trajectories
 
 You can import a structure or trajectory by:
 - providing the files from your local machine
@@ -80,8 +57,7 @@ You can import a structure or trajectory by:
 
 **Note**: When you import a trajectory file, like an xtc, you must also import a structure to which the trajectory can be matched. Otherwise you will not be able to play the trajectory. To match the trajectory to a structure, see FAQ: How can I assign a trajectory to a structure?
 
-<a name="assign-tr"></a>
-## How can I assign a trajectory to a structure?
+## Assign a trajectory to a structure
 
 To match a trajectory to a structure, you must first import both ([How can I import a structure or trajectory?](#import-str)). 
 1. Open the Home panel on the left-hand side.
@@ -98,14 +74,6 @@ To match a trajectory to a structure, you must first import both ([How can I imp
         </video>
     </figure>
 </center>
-
-<a name="vis-tr"></a>
-## How can I visualize my trajectory?
-
-To visualize your trajectory follow the following steps in the FAQs
-- [How can I import a structure or trajectory?](#import-str)
-- [How can I assign a trajectory to a structure?](#assign-str)
-- [How do I play my trajectory?](#play-tr)
 
 <a name="play-tr"></a>
 ## How do I play my trajectory?
@@ -127,8 +95,7 @@ Now only the matched result is visible in the representation.
     </figure>
 </center>
 
-<a name="share-session"></a>
-## How can I share the session I have prepared?
+## Sharing a session
 
 You can share your your in two ways:
 
@@ -153,13 +120,8 @@ You can share your your in two ways:
 
 - Setting up your own MDsrv, see FAQs [How do I install a MDsrv server on my machine (Setting up your own server and viewer)?](#install).
 
-<a name="share-tr"></a>
-## How can I share my trajectory?
 
-See FAQ: [How can I share the session I have prepared?](#share-session)
-
-<a name='upload-tr'></a>
-## How can I upload my trajectory to MDsrv?
+## Upload a trajectory to the MDsrv
 
 The trajectory you want to store on our server must be publicly available on another server.
 1. Open the Extensions Panel at the bottom.
@@ -181,42 +143,7 @@ Currently, only trajectories in the XTC format can be uploaded.
     </figure>
 </center>
 
-<a name="tr-large"></a>
-## My trajectory is too large to be displayed and the viewer crashed.
-	
-To share large trajectories, you either need to set up your own server:
-See FAQs 
-- "How do I install a MDsrv server on my machine"
-- "How do I add a trajectory to my own MDsrv server?"
-- "How do I stream a trajectory from the MDsrv server?"
-
-Or you can upload the trajectory to our server, so you can stream it frame by frame. See FAQ: [How can I upload my trajectory to MDsrv?](#upload-tr)
-
-<a name="install"></a>
-## How do I install a MDsrv server on my machine (Setting up your own server and viewer)?
-
-See: [https://github.com/dwiegreffe/mdsrv](https://github.com/dwiegreffe/mdsrv) README.md
-
-<a name="import-tr-md"></a>
-## How do I add a trajectory to my own MDsrv server?
-
-1. Add your trajectory into the trajectory folder of your server.
-2. Update the trajectory_index.json. 
-An entry has the following format:
-```
-{
-    "timestamp": 123,
-    "id": "example_id",
-    "name": "example_name",
-    "description": "example_description"
-}
-```
-
-Whereas the id (example_id) must be the name of the trajectory file in the trajectory directory, and the id must be unique.
-Currently, only trajectories in the XTC format can be streamed.
-
-<a name="stream"></a>
-## How do I stream a trajectory from the MDsrv?
+## Stream a trajectory from the MDsrv
 
 1. Open the Extensions panel at the bottom.
 2. Open the Match Trajectory Stream menu.
@@ -235,18 +162,7 @@ Currently, only trajectories in the XTC format can be streamed.
     </figure>
 </center>
 
-<a name="public"></a>
-## Do I need a public IP to share data with the world?
-	
-To make your server globally visible you need a public IP. Otherwise it is only visible to devices within your local network.
-
-<a name="share"></a>
-## I developed a really nice representation and perspective on my trajectory. How do I save this and make it available for others?
-	
-See FAQ: [How can I share the session I have prepared?](#share-session)
-
-<a name="align"></a>
-## How to align two or more structures based on an already calculated alignment?
+## Superpose structures based on a sequence alignment
 
 1. Import a Clustal alignment (.aln) using the Open Local Files menu. 
 2. Import the structures corresponding to the sequences in the alignment.
@@ -269,69 +185,3 @@ See FAQ: [How can I share the session I have prepared?](#share-session)
         </video>
     </figure>
 </center>
-
-<a name="import-align"></a>
-## How can I import an alignment?
-
-Import the Clustal file (.aln) using the Open Local Files menu in the Home panel on the left-hand side. 
-
-To match the alignemnt to structures, see FAQ: [How to align two or more structures based on an already calculated alignment?](#align)
-
-<a name="distance-plot"></a>
-## How can I plot distances/angles/dihedrals of selected atoms throughout my trajectories?
-	
-1. Import your trajectory.
-2. Open the Structure Tools panel on the right side.
-3. Open the Measurements menu in the Structure Tools panel.
-4. Select the Add button in the Measurements menu.
-5. Activate the selection mode by clicking the last button of the buttons on the right side of the white canvas where the structure is displayed (Toggle selection mode). 
-6. An additional menu appears at the top of the white canvas.
-7. Select the button labeled Residue to change the granularity of the selection.
-8. Select the desired elements to add a measurement (two for distance, three for angle, four for area angle). The selected elements will be displayed in the Measurements menu. 
-9. Select the desired measurement in the Measurements menu to add it. 
-10. Open the Extensions field at the bottom.
-11. Open the Time-trace Plot menu.
-12. Select the measurement you just added to display its plot throughout the trajectory.
-
-A guide with screenshots can be found at [Distance Plots](distances.html)
-
-<a name="vis-other"></a>
-## How can I visualize trajectories that are stored on another server that is not an MDsrv?
-
-You can download the trajectory to your computer. Then you can follow the steps in [How can I visualize my trajectory?](#vis-tr).
-
-If the trajectory is too large to vizualize it this way, you can upload it to our MDsrv by follow the steps in [My trajectory is too large to be displayed and the viewer crashed.](#tr-large).
-
-You can also set up your own MDsrv to stream the trajectory:
-- [How do I install a MDsrv server on my machine (Setting up your own server and viewer)?](#install)
-- [How do I add a trajectory to my own MDsrv server?](#import-tr-md)
-- [How can I upload a trajectory to the MDsrv?](#upload-tr)
-
-<a name="data"></a>	
-## Can I upload both my own and public data?
-
-Yes, you can upload your own and public data, see FAQ [How can I import a structure and trajectory?](#import-str)
-
-<a name="upload"></a>	
-## How to upload local data (from my computer) to a running server?
-
-To upload the data you have locally stored on your computer you first have to import the data into the client and prepare a session to your desires. Then you can store this session on a running server by following the steps in FAQ [How can I share the session I have prepared?](#share-session)
-
-If you want to upload a trajectory to the MDsrv, because it is too large to vizualize without the client crashing, you can upload the trajectory to the MDsrv by following the steps in [How can I upload my trajectory to the MDsrv?](#upload-tr)
-
-<a name="upload-pdb"></a>	
-## How to import data from other public servers (such as the Protein Data Bank)?
-
-See FAQ: [How can I import a structure or a trajectory?](#import-str)
-
-<a name="install-myself"></a>
-## Do I have to install MDsrv myself to visualize and share my trajectories?
-	
-No, you can use our server to visualize and share your trajectories. 
-See FAQ: [How can I share my trajectory?](#share-tr)
-
-## How can I select a chain or atoms to be shown or highlighted?
-
-## How can I change the coloring and representation of my molecules?
-
-## How long are remote sessions available that I upload to the server?
