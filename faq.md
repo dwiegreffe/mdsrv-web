@@ -152,11 +152,13 @@ To match a trajectory to a structure, you must first import both ([How can I imp
     - Coordinates: the trajectory you want to match to the structure
 4. Select Apply.
 
-<figure class='video_container'>
-    <video width='100%' controls='true' allowfullscreen='true' poster=''>
-        <source src='./videos/assign_trajectory_to_structure.mp4' type='video/mp4'>
-    </video>
-</figure>
+<center>
+    <figure class='video_container'>
+        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/assign_trajectory_to_structure.png'>
+            <source src='./videos/assign_trajectory_to_structure.mp4' type='video/mp4'>
+        </video>
+    </figure>
+</center>
 
 <a name="vis-tr"></a>
 #### How can I visualize my trajectory?
@@ -178,11 +180,13 @@ After matching the trajectory, you need to clean up the visualization:
 2. Toggle the visibility for the two imported files (same name as the original files).
 Now only the matched result is visible in the representation.
 
-<figure class='video_container'>
-    <video width='100%' controls='true' allowfullscreen='true' poster=''>
-        <source src='./videos/play_trajectory.mp4' type='video/mp4'>
-    </video>
-</figure>
+<center>
+    <figure class='video_container'>
+        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/play_trajectory.png'>
+            <source src='./videos/play_trajectory.mp4' type='video/mp4'>
+        </video>
+    </figure>
+</center>
 
 <a name="share-session"></a>
 #### How can I share the session I have prepared?
@@ -200,11 +204,13 @@ You can share your your in two ways:
     6. To share your session with others, right-click your session to open it in a new tab with its URL.
     7. Share this URL.
 
-<figure class='video_container'>
-    <video width='100%' controls='true' allowfullscreen='true' poster=''>
-        <source src='./videos/share_session.mp4' type='video/mp4'>
-    </video>
-</figure>
+<center>
+    <figure class='video_container'>
+        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/share_session_our_server.png'>
+            <source src='./videos/share_session.mp4' type='video/mp4'>
+        </video>
+    </figure>
+</center>
 
 - Setting up your own MDsrv, see FAQs [How do I install a MDsrv server on my machine (Setting up your own server and viewer)?](#install).
 
@@ -233,6 +239,14 @@ The trajectory you want to store on our server must be publicly available on ano
 7. Select Upload Trajectory to Server.
 8. When the trajectory is successfully uploaded, a message appears in the Log panel.
 9. To visualize the uploaded trajectory, see FAQ: [How do I stream a trajectory from the MDsrv?](#stream).
+
+<center>
+    <figure class='video_container'>
+        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/upload_trajectory_server.png'>
+            <source src='./videos/upload_trajectory_server.mp4' type='video/mp4'>
+        </video>
+    </figure>
+</center>
 
 <a name="install"></a>
 #### How do I install a MDsrv server on my machine (Setting up your own server and viewer)?
