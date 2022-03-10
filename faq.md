@@ -25,9 +25,12 @@ title: MDsrv
 - [How to upload data from other public servers (such as the Protein Data Bank)?](#upload-pdb) 
 - [Do I have to install MDsrv myself to visualize and share my trajectories?](#install-myself) 
 
-<details border>
-    <summary style='color:#159957'><big> How can I import a structure or trajectory? </big></summary>
+<details style=' border-style:'solid border:2px '>
+    <summary>
+    ### How can I import a structure or trajectory? 
+    </summary>
 
+<p>
 You can import a structure or trajectory by
 
 - providing the files from your local machine
@@ -74,6 +77,7 @@ You can import a structure or trajectory by
 
 **Note**: When you import a trajectory file, like an xtc, you must also import a structure to which the trajectory can be matched. Otherwise you will not be able to play the trajectory. To match the trajectory to a structure, see FAQ: How can I assign a trajectory to a structure?
 
+</p>
 </details>
 
 <a name="import-str"></a>
