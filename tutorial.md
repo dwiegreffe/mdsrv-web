@@ -4,6 +4,64 @@ title: MDsrv
 
 # Tutorials
 
+<details>
+    <summary>
+    Importing structures and trajectories
+    </summary>
+
+You can import a structure or trajectory by:
+- providing the files from your local machine
+    1. Open the Home panel on the left-hand side.
+    2. Open the Open Local Files menu in the Home panel.
+    3. Select Select files... to choose which of the files you have stored locally to upload.
+        - You can import multiple files at once.
+        - If you are importing multiple files at once, that do not have the same format, the Format option should be set to Auto.
+        - If you are importing only one file at a time, or if all files have the same format, you can also specify the format of the file. However, in most cases, this is not necessary.
+    4. Select Apply.
+
+<center>
+    <figure class='video_container'>
+        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/import_local_files.png'>
+            <source src='./videos/import_local_files.mp4' type='video/mp4'>
+        </video>
+    </figure>
+</center>
+
+- using one of the common public servers (like PDB)
+    1. Open the Home panel on the left-hand side.
+    2. Open the Open Remote Structure menu in the Home panel.
+    3. Select the server you want to download the structure or trajectory from as the Source.
+    4. Enter the ID of the structure or trajectory you want to import from the selected server.
+    5. Select Apply.
+
+<center>
+    <figure class='video_container'>
+        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/import_structure_id.png'>
+            <source src='./videos/import_structure_id.mp4' type='video/mp4'>
+        </video>
+    </figure>
+</center>
+
+- using the URL of a structure or trajectory file that is publicly available on another server:
+    1. Open the Home panel on the left-hand side.
+    2. Open the Open Remote File menu in the Home panel.
+    3. Enter the URL of the file.
+    4. Select the correct format of the file for the Format parameter.
+    5. Set the Binary parameter to On, if the file is binary.
+    6. Select Apply.
+
+<center>
+    <figure class='video_container'>
+        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/import_via_url.png'>
+            <source src='./videos/import_via_url.mp4' type='video/mp4'>
+        </video>
+    </figure>
+</center>
+
+**Note**: When you import a trajectory file, like an xtc, you must also import a structure to which the trajectory can be matched. Otherwise you will not be able to play the trajectory. To match the trajectory to a structure, see FAQ: How can I assign a trajectory to a structure?
+
+</details>
+
 ## Importing structures and trajectories
 
 You can import a structure or trajectory by:
