@@ -137,32 +137,23 @@ Now only the matched result is visible in the representation.<br>
 <details>
     <summary>Sharing a session</summary>
 
-<p>
+<p><div markdown="1">
 
-You can share your your in two ways:<br>
+You can share your your in two ways:
 
-<ul>
-    <li>Through our server:</li>
-    <ol>
-        <li>Import the structures and trajectories you want to share<br>
+- Through our server:
+    1. Import the structures and trajectories you want to share
         See Tutorials
-        <ul>
-            <li><a href="#t-import">Importing structures and trajectories</a></li>
-            <li><a href="#t-assign-traj">Assign a trajectory to a structure</a></li>
-        </ul>
-        <li>Prepare your session as desired.</li>
-        <li>Open the <i>Remote Session</i> menu in the <i>Extensions</i> panel at the bottom.</li>
-        <li>Name your session.</li>
-        <ul>
-            <li>Optional: Enter a description by opening the <i>Options</i> area.</li>
-            <li>Optional: Change the server address.</li>
-        </ul>
-        <li>Select the <i>Upload</i> button.</li>
-        <li>To share your session with others, right-click your session to open it in a new tab with its URL.</li>
-        <li>Share this URL.</li>
-        
-    </ol>
-</ul>
+        - <a href="#t-import">Importing structures and trajectories</a>
+        - <a href="#t-assign-traj">Assign a trajectory to a structure</a>
+    2. Prepare your session as desired.
+    3. Open the <i>Remote Session</i> menu in the <i>Extensions</i> panel at the bottom.
+    4. Name your session.
+        - Optional: Enter a description by opening the <i>Options</i> area.
+        - Optional: Change the server address.
+    5. Select the <i>Upload</i> button.
+    6. To share your session with others, right-click your session to open it in a new tab with its URL.
+    7. Share this URL.
 
 <center>
     <figure class='video_container'>
@@ -172,12 +163,9 @@ You can share your your in two ways:<br>
     </figure>
 </center>
 
-<ul>
-    <li>Setting up your own MDsrv, see <a href="install.html#install">How do I install a MDsrv server on my machine (Setting up your own server and viewer)?</a>.</li>
-</ul>
+- Setting up your own MDsrv, see <a href="install.html#install">How do I install a MDsrv server on my machine (Setting up your own server and viewer)?</a>.</li>
 
-</p>
-</details>
+</div></p></details>
 
 <a name='t-upload-traj'></a>
 <details>
