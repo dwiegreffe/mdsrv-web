@@ -4,8 +4,8 @@ title: MDsrv
 
 # Tutorials
 
-<details>
-    <summary style='cursor:pointer; display:inline'>
+<details style='border:solid; border-color:#159957; border-width:2px; border-radius:5px; padding: 10px 15px 0px 15px;'>
+    <summary style='cursor:pointer; display:list-item; color:#159957'>
     <h2>Importing structures and trajectories</h2>
     </summary>
 
