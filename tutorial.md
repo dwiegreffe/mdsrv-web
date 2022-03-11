@@ -156,7 +156,7 @@ You can share your your in two ways:
 The trajectory you want to store on our server must be publicly available on another server.
 1. Open the Extensions Panel at the bottom.
 2. Open the Add Trajectory to Stream Server menu.
-3. Optionally, if you want to upload the trajectory to another MDsrv instance, adjust the Servre parameter accordingly.
+3. Optionally, if you want to upload the trajectory to another MDsrv instance, adjust the Server parameter accordingly.
 4. Enter the URL of the trajectory file.
 5. Name the trajectory. (If there is already a trajectory with the same name, a message will appear in the Log panel. Please change the name.)
 6. Add a more detailed description for your trajectory.
