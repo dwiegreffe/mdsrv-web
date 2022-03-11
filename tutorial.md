@@ -10,14 +10,14 @@ title: MDsrv
 
 <p>
 
-You can import a structure or trajectory by:
-- providing the files from your local machine
-    1. Open the Home panel on the left-hand side.
-    2. Open the Open Local Files menu in the Home panel.
-    3. Select Select files... to choose which of the files you have stored locally to upload.
-        - You can import multiple files at once.
-        - If you are importing multiple files at once, that do not have the same format, the Format option should be set to Auto.
-        - If you are importing only one file at a time, or if all files have the same format, you can also specify the format of the file. However, in most cases, this is not necessary.
+You can import a structure or trajectory by:<br>
+- providing the files from your local machine<br>
+    1. Open the Home panel on the left-hand side.<br>
+    2. Open the Open Local Files menu in the Home panel.<br>
+    3. Select Select files... to choose which of the files you have stored locally to upload.<br>
+        - You can import multiple files at once.v
+        - If you are importing multiple files at once, that do not have the same format, the Format option should be set to Auto.<br>
+        - If you are importing only one file at a time, or if all files have the same format, you can also specify the format of the file. However, in most cases, this is not necessary.<br>
     4. Select Apply.
 
 <center>
