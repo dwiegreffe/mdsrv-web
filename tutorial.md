@@ -162,7 +162,7 @@ The trajectory you want to store on our server must be publicly available on ano
 6. Add a more detailed description for your trajectory.
 7. Select Upload Trajectory to Server.
 8. When the trajectory is successfully uploaded, a message appears in the Log panel.
-9. To visualize the uploaded trajectory, see FAQ: [How do I stream a trajectory from the MDsrv?](#stream).
+9. To visualize the uploaded trajectory, see <a href="#t-stream-traj">How do I stream a trajectory from the MDsrv?</a>).
 Currently, only trajectories in the XTC format can be uploaded.
 
 <center>
