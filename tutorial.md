@@ -70,7 +70,8 @@ You can import a structure or trajectory by:
 
 <p>
 
-To match a trajectory to a structure, you must first import both ([How can I import a structure or trajectory?](#import-str)). 
+To match a trajectory to a structure, you must first import both <a href="faq.html##import-str">How can I import a structure or trajectory?</a>.
+([How can I import a structure or trajectory?](#import-str)). 
 1. Open the Home panel on the left-hand side.
 2. Open the Assign Trajectory menu in the Home panel.
 3. Select the structure and trajectory you want to match:
