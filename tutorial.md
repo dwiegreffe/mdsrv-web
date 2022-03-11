@@ -163,7 +163,7 @@ You can share your your in two ways:
     </figure>
 </center>
 
-- Setting up your own MDsrv, see <a href="install.html#install">How do I install a MDsrv server on my machine (Setting up your own server and viewer)?</a>.</li>
+- Setting up your own MDsrv, see <a href="install.html#install">How do I install a MDsrv server on my machine (Setting up your own server and viewer)?</a>.
 
 </div></p></details>
 

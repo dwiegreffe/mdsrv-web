@@ -124,6 +124,7 @@ Yes, you can upload your own and public data. Check out the tutorial on <a href=
 To upload the data you have locally stored on your computer you first have to import the data into the client and prepare a session to your desires. Then you can store this session on a running server by following the steps in the tutorial on <a href="tutorial.html#t-share-session">Sharing a session</a>.
 
 If you want to upload a trajectory to the MDsrv, because it is too large to vizualize without the client crashing, you can upload the trajectory to the MDsrv by following the steps in the tutorial <a href="tutorial.html#t-upload-traj">Upload a trajectory to the MDsrv</a>.
+</div></p></details>
 
 <details>
     <summary>How to import data from other public servers (such as the Protein Data Bank)?</summary>
@@ -138,71 +139,99 @@ No, you can use our server to visualize and share your trajectories. You can fin
 </div></p></details>
 
 <details>
-    <summary></summary>
+    <summary>How can I select a chain or atoms to be shown or highlighted?</summary>
+<p><div markdown="1">
+
+</div></p></details>
+
+<details>
+    <summary>How can I change the coloring and representation of my molecules?</summary>
+<p><div markdown="1">
+
+</div></p></details>
+
+<details>
+    <summary>How long are remote sessions available that I upload to the server?</summary>
+<p><div markdown="1">
+
+</div></p></details>
+
+<details>
+    <summary>I only want a specific part of my structure to be visible, how do I achieve this?</summary>
+<p><div markdown="1">
+
+</div></p></details>
+
+<details>
+    <summary>I added a measurement to my trajectory, but it is not updating when I change the frame?</summary>
+<p><div markdown="1">
+
+</div></p></details>
+
+<details>
+    <summary>I added a measurement to my trajectory, but there is no time-trace plot available?</summary>
+<p><div markdown="1">
+
+</div></p></details>
+
+<details>
+    <summary>I selected an amino acid in the seuquence view at the top to zoom into my trajectory, but I get an overlay of another structure. Why is this happening?</summary>
+<p><div markdown="1">
+
+</div></p></details>
+
+<details>
+    <summary>Can I download my viszualization as an image or video?</summary>
+<p><div markdown="1">
+
+</div></p></details>
+
+<details>
+    <summary>How do I add a measurement?</summary>
+<p><div markdown="1">
+
+</div></p></details>
+
+<details>
+    <summary>I want to select a chain or atom and not focus on it. How?</summary>
+<p><div markdown="1">
+
+</div></p></details>
+
+<details>
+    <summary>How can I open and close the panels?</summary>
+<p><div markdown="1">
+
+</div></p></details>
+
+<details>
+    <summary>Why do I not see a structure or trajectory?</summary>
+<p><div markdown="1">
+
+</div></p></details>
+
+<details>
+    <summary>Can I change the play mode of the trajectory?</summary>
+<p><div markdown="1">
+
+</div></p></details>
+
+<details>
+    <summary>Why is only part of my trajectory moving? Why is there an overlapping?</summary>
+<p><div markdown="1">
+
+</div></p></details>
+
+<details>
+    <summary>How do I get the URL to my saved session?</summary>
+<p><div markdown="1">
+
+</div></p></details>
+
+<details>
+    <summary>How can I add a sequence alignment</summary>
 <p><div markdown="1">
 
 </div></p></details>
 
 </div>
-
-## How can I select a chain or atoms to be shown or highlighted?
-
-## How can I change the coloring and representation of my molecules?
-
-## How long are remote sessions available that I upload to the server?
-
-## I only want a specific part of my structure to be visible, how do I achieve this?
-
-## I added a measurement to my trajectory, but it is not updating when I change the frame?
-
-## I added a measurement to my trajectory, but there is no time-trace plot available?
-
-## I selected an amino acid in the seuquence view at the top to zoom into my trajectory, but I get an overlay of another structure. Why is this happening?
-
-## Can I download my viszualization as an image or video?
-
-## How do I add a measurement?
-
-## I want to select a chain or atom and not focus on it. How?
-
-## How can I open and close the panels?
-
-## Why do I not see a structure or trajectory?
-
-## Can I change the play mode of the trajectory?
-
-## Why is only part of my trajectory moving? Why is there an overlapping?
-
-## How do I get the URL to my saved session?
-
-## How can I add a sequence alignment
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
