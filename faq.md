@@ -4,9 +4,19 @@ title: MDsrv
 
 # FAQ:
 
-## How can I import a structure or trajectory?
+<div class='faq'>
+
+<a name='t-import'></a>
+<details>
+    <summary>Importing structures and trajectories</summary>
+
+<p><div markdown="1">
 
 You can find a detailed description on how to import structures and trajectories, inluding a video, in the tutorial section under [Importing structures and trajectories](tutorial.html).
+
+</div></p></details>
+
+</div>
 
 ## How can I assign a trajectory to a structure?
 

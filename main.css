@@ -13,3 +13,19 @@ details summary {
     display: list-item;
     font-size: 1.5em;
 }
+
+.faq details{
+    border: solid;
+    border-color: #159957;
+    border-width: 1.5px;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 10px;
+}
+
+.faq details summary {
+    cursor: pointer;
+    color: #159957;
+    display: list-item;
+    font-size: 1.1em;
+}
