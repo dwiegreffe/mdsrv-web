@@ -185,7 +185,7 @@ Currently, only trajectories in the XTC format can be uploaded.
 1. Open the Extensions panel at the bottom.
 2. Open the Match Trajectory Stream menu.
 3. Enter the Server URL where the trajectory is stored (Must be an MDsrv instance).
-4. Import the structure corresponding to the trajectory (see FAQ [How can I import a structure or trajectory?](#import-str)).
+4. Import the structure corresponding to the trajectory (see <a href="#t-import">How can I import a structure or trajectory?</a>).
 5. Select this structure via the Model parameter. 
 6. Select the trajectory you want to stream via the Trajectory parameter.
 7. Select Add Xtc Stream Trajectory.
