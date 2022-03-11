@@ -4,10 +4,11 @@ title: MDsrv
 
 # Tutorials
 
-<details style='border:solid; border-color:#159957; border-width:2px; border-radius:5px; padding: 10px 15px 10px 15px; margin-bottom:10px;'>
-    <summary style='cursor:pointer; display:list-item; color:#159957; font-size:1.5em'>Importing structures and trajectories</summary>
+<a name='t-import'></a>
+<details>
+    <summary>Importing structures and trajectories</summary>
 
-<p markdown='1'>
+<p>
 
 You can import a structure or trajectory by:
 - providing the files from your local machine
@@ -63,10 +64,11 @@ You can import a structure or trajectory by:
 </p>
 </details>
 
-<details style='border:solid; border-color:#159957; border-width:2px; border-radius:5px; padding: 10px 15px 10px 15px; margin-bottom:10px'>
-    <summary style='cursor:pointer; display:list-item; color:#159957; font-size:1.5em'>Assign a trajectory to a structure</summary>
+<a name='t-assign-traj'></a>
+<details>
+    <summary>Assign a trajectory to a structure</summary>
 
-<p markdown='1'>
+<p>
 
 To match a trajectory to a structure, you must first import both ([How can I import a structure or trajectory?](#import-str)). 
 1. Open the Home panel on the left-hand side.
@@ -84,8 +86,14 @@ To match a trajectory to a structure, you must first import both ([How can I imp
     </figure>
 </center>
 
-<a name="play-tr"></a>
-## How do I play my trajectory?
+</p>
+</details>
+
+<a name='t-play'></a>
+<details>
+    <summary'>Play trajectory</summary>
+
+<p>
 
 You first need to import your trajectory ([How can I import a structure or trajectory?](#import-str)).
 After you imported your trajectory, a play button will appear in the top left corner of the white canvas where the structure is displayed.
@@ -107,7 +115,11 @@ Now only the matched result is visible in the representation.
 </p>
 </details>
 
-## Sharing a session
+<a name='t-share-session'></a>
+<details>
+    <summary>Sharing a session</summary>
+
+<p>
 
 You can share your your in two ways:
 
@@ -132,8 +144,14 @@ You can share your your in two ways:
 
 - Setting up your own MDsrv, see FAQs [How do I install a MDsrv server on my machine (Setting up your own server and viewer)?](#install).
 
+</p>
+</details>
 
-## Upload a trajectory to the MDsrv
+<a name='t-upload-traj'></a>
+<details>
+    <summary>Upload a trajectory to the MDsrv</summary>
+
+<p>
 
 The trajectory you want to store on our server must be publicly available on another server.
 1. Open the Extensions Panel at the bottom.
@@ -155,7 +173,14 @@ Currently, only trajectories in the XTC format can be uploaded.
     </figure>
 </center>
 
-## Stream a trajectory from the MDsrv
+</p>
+</details>
+
+<a name='t-stream-traj'></a>
+<details>
+    <summary>Stream a trajectory from the MDsrv</summary>
+
+<p>
 
 1. Open the Extensions panel at the bottom.
 2. Open the Match Trajectory Stream menu.
@@ -174,7 +199,14 @@ Currently, only trajectories in the XTC format can be uploaded.
     </figure>
 </center>
 
-## Superpose structures based on a sequence alignment
+</p>
+</details>
+
+<a name='t-alignment'></a>
+<details>
+    <summary>Superpose structures based on a sequence alignment</summary>
+
+<p>
 
 1. Import a Clustal alignment (.aln) using the Open Local Files menu. 
 2. Import the structures corresponding to the sequences in the alignment.
@@ -198,3 +230,40 @@ Currently, only trajectories in the XTC format can be uploaded.
     </figure>
 </center>
 
+</p>
+</details>
+
+<a name='t-plot'></a>
+<details>
+    <summary>Add a time-trace plot of a measurement for a trajectory</summary>
+
+<p>
+
+## How can I plot distances/angles/dihedrals of selected atoms throughout my trajectories?
+	
+1. Import your trajectory.
+2. Open the Structure Tools panel on the right side.
+3. Open the Measurements menu in the Structure Tools panel.
+4. Select the Add button in the Measurements menu.
+5. Activate the selection mode by clicking the last button of the buttons on the right side of the white canvas where the structure is displayed (Toggle selection mode). 
+6. An additional menu appears at the top of the white canvas.
+7. Select the button labeled Residue to change the granularity of the selection.
+8. Select the desired elements to add a measurement (two for distance, three for angle, four for area angle). The selected elements will be displayed in the Measurements menu. 
+9. Select the desired measurement in the Measurements menu to add it. 
+10. Open the Extensions field at the bottom.
+11. Open the Time-trace Plot menu.
+12. Select the measurement you just added to display its plot throughout the trajectory.
+
+A guide with screenshots can be found at [Distance Plots](distances.html)
+
+</p>
+</details>
+
+<a name='t-measuement-traj'></a>
+<details>
+    <summary>Add a measurement to a trajectory</summary>
+
+<p>
+
+</p>
+</details>
