@@ -13,15 +13,15 @@ You can import a structure or trajectory by:<br>
 <ul>
     <li>providing the files from your local machine</li>
     <ol>
-    <li>Open the <em>Home</em> panel on the left-hand side.</li>
-    <li>Open the <em>Open Local Files</em> menu in the <em>Home</em> panel.</li>
-    <li>Select <em>Select files...</em> to choose which of the files you have stored locally to upload.</li>
+    <li>Open the <i>Home</i> panel on the left-hand side.</li>
+    <li>Open the <i>Open Local Files</i> menu in the <i>Home</i> panel.</li>
+    <li>Select <i>Select files...</i> to choose which of the files you have stored locally to upload.</li>
         <ul>
             <li>You can import multiple files at once.</li>
             <li>If you are importing multiple files at once, that do not have the same format, the Format option should be set to Auto.</li>
             <li>If you are importing only one file at a time, or if all files have the same format, you can also specify the format of the file. However, in most cases, this is not necessary.</li>
         </ul>
-    <li>Select <em>Apply</em>.</li>
+    <li>Select <i>Apply</i>.</li>
     </ol>
 </ul>
 <center>
@@ -35,11 +35,11 @@ You can import a structure or trajectory by:<br>
 <ul>
     <li>using one of the common public servers (like PDB)</li>
     <ol>
-        <li>Open the <em>Home</em> panel on the left-hand side.</li>
-        <li>Open the <em>Open Remote Structure</em> menu in the <em>Home</em> panel.</li>
-        <li>Select the server you want to download the structure or trajectory from as the <em>Source</em>.</li>
-        <li>Enter the <em>ID</em> of the structure or trajectory you want to import from the selected server.</li>
-        <li>Select <em>Apply</em>.</li>
+        <li>Open the <i>Home</i> panel on the left-hand side.</li>
+        <li>Open the <i>Open Remote Structure</i> menu in the <i>Home</i> panel.</li>
+        <li>Select the server you want to download the structure or trajectory from as the <i>Source</i>.</li>
+        <li>Enter the <i>ID</i> of the structure or trajectory you want to import from the selected server.</li>
+        <li>Select <i>Apply</i>.</li>
     </ol>
 </ul>
 
@@ -54,12 +54,12 @@ You can import a structure or trajectory by:<br>
 <ul>
     <li>using the URL of a structure or trajectory file that is publicly available on another server:</li>
     <ol>
-        <li>Open the <em>Home</em> panel on the left-hand side.</li>
-        <li>Open the <em>Open Remote File</em> menu in the <em>Home</em> panel.</li>
-        <li>Enter the <em>URL</em> of the file.</li>
-        <li>Select the correct format of the file for the <em>Format</em> parameter.</li>
-        <li>Set the <em>Binary</em> parameter to On, if the file is binary.</li>
-        <li>Select <em>Apply</em>.</li>
+        <li>Open the <i>Home</i> panel on the left-hand side.</li>
+        <li>Open the <i>Open Remote File</i> menu in the <i>Home</i> panel.</li>
+        <li>Enter the <i>URL</i> of the file.</li>
+        <li>Select the correct format of the file for the <i>Format</i> parameter.</li>
+        <li>Set the <i>Binary</i> parameter to On, if the file is binary.</li>
+        <li>Select <i>Apply</i>.</li>
     </ol>
 </ul>
 
@@ -83,12 +83,16 @@ You can import a structure or trajectory by:<br>
 <p>
 
 To match a trajectory to a structure, you must first import both (<a href="#t-import">How can I import a structure or trajectory?</a>). <br>
-1. Open the Home panel on the left-hand side.<br>
-2. Open the Assign Trajectory menu in the Home panel.<br>
-3. Select the structure and trajectory you want to match:<br>
-    - Model: the structure to which the trajectory should be matched<br>
-    - Coordinates: the trajectory you want to match to the structure<br>
-4. Select Apply.
+<ol>
+    <li>Open the <i>Home</i> panel on the left-hand side.</li>
+    <li>Open the <i>Assign Trajectory</i> menu in the Home panel.</li>
+    <li>Select the structure and trajectory you want to match:</li>
+    <ul>
+        <li><i>Model</i>: the structure to which the trajectory should be matched</li>
+        <li><i>Coordinates</i>: the trajectory you want to match to the structure</li>
+    </ul>
+    <li>Select <i>Apply</i>.</li>
+</ol>
 
 <center>
     <figure class='video_container'>
@@ -105,7 +109,7 @@ To match a trajectory to a structure, you must first import both (<a href="#t-im
 <details>
     <summary>Play trajectory</summary>
 
-<p>
+<span>
 
 You first need to import your trajectory (<a href="#t-import">How can I import a structure or trajectory?</a>).<br>
 After you imported your trajectory, a play button will appear in the top left corner of the white canvas where the structure is displayed.<br>
@@ -124,7 +128,7 @@ Now only the matched result is visible in the representation.<br>
     </figure>
 </center>
 
-</p>
+</span>
 </details>
 
 <a name='t-share-session'></a>
