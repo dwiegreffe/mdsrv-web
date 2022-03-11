@@ -70,8 +70,7 @@ You can import a structure or trajectory by:
 
 <p>
 
-To match a trajectory to a structure, you must first import both <a href="faq.html##import-str">How can I import a structure or trajectory?</a>.
-([How can I import a structure or trajectory?](#import-str)). 
+To match a trajectory to a structure, you must first import both (<a href="#t-import">How can I import a structure or trajectory?</a>). 
 1. Open the Home panel on the left-hand side.
 2. Open the Assign Trajectory menu in the Home panel.
 3. Select the structure and trajectory you want to match:
@@ -96,10 +95,10 @@ To match a trajectory to a structure, you must first import both <a href="faq.ht
 
 <p>
 
-You first need to import your trajectory ([How can I import a structure or trajectory?](#import-str)).
+You first need to import your trajectory (<a href="#t-import">How can I import a structure or trajectory?</a>).
 After you imported your trajectory, a play button will appear in the top left corner of the white canvas where the structure is displayed.
 
-In case you provided the coordinate file of the trajectory yourself, you must first match it with a structure ([How can I assign a trajectory to a structure?](#assign-tr)).
+In case you provided the coordinate file of the trajectory yourself, you must first match it with a structure (<a href="#t-assign-traj">How can I assign a trajectory to a structure?</a>).
 After matching the trajectory, you need to clean up the visualization:
 1. Open the State Tree panel on the left-hand side.
 2. Toggle the visibility for the two imported files (same name as the original files).
