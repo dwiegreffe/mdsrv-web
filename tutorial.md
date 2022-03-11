@@ -208,16 +208,17 @@ Currently, only trajectories in the XTC format can be uploaded.
 <details>
     <summary>Stream a trajectory from the MDsrv</summary>
 
+<p>
 <div markdown="1">
 
-1. Open the Extensions panel at the bottom.<br>
-2. Open the Match Trajectory Stream menu.<br>
-3. Enter the Server URL where the trajectory is stored (Must be an MDsrv instance).<br>
-4. Import the structure corresponding to the trajectory (see <a href="#t-import">How can I import a structure or trajectory?</a>).<br>
-5. Select this structure via the Model parameter. <br>
-6. Select the trajectory you want to stream via the Trajectory parameter.<br>
-7. Select Add Xtc Stream Trajectory.<br>
-8. You can now play your trajectory.<br>
+1. Open the _Extensions panel_ at the bottom.
+2. Open the _Match Trajectory Stream_ menu.
+3. Enter the _Server URL_ where the trajectory is stored (Must be an MDsrv instance).
+4. Import the structure corresponding to the trajectory (see <a href="#t-import">How can I import a structure or trajectory?</a>).
+5. Select this structure via the _Model_ parameter.
+6. Select the trajectory you want to stream via the _Trajectory_ parameter.
+7. Select _Add Stream Trajectory_.
+8. You can now play your trajectory.
 
 <center>
     <figure class='video_container'>
@@ -228,6 +229,7 @@ Currently, only trajectories in the XTC format can be uploaded.
 </center>
 
 </div>
+</p>
 </details>
 
 <a name='t-alignment'></a>
@@ -235,6 +237,7 @@ Currently, only trajectories in the XTC format can be uploaded.
     <summary>Superpose structures based on a sequence alignment</summary>
 
 <p>
+<div markdown="1">
 
 1. Import a Clustal alignment (.aln) using the Open Local Files menu. <br>
 2. Import the structures corresponding to the sequences in the alignment.<br>
@@ -258,6 +261,7 @@ Currently, only trajectories in the XTC format can be uploaded.
     </figure>
 </center>
 
+</div>
 </p>
 </details>
 
