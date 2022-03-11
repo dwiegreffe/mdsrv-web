@@ -4,10 +4,10 @@ title: MDsrv
 
 # Tutorials
 
-<details style='border:solid; border-color:#159957; border-width:2px; border-radius:5px; padding: 10px 15px 10px 15px;'>
+<details style='border:solid; border-color:#159957; border-width:2px; border-radius:5px; padding: 10px 15px 10px 15px; margin-bottom:10px;'>
     <summary style='cursor:pointer; display:list-item; color:#159957; font-size:1.5em'>Importing structures and trajectories</summary>
 
-<p markdown=1>
+<p markdown='1'>
 
 You can import a structure or trajectory by:
 - providing the files from your local machine
@@ -63,7 +63,10 @@ You can import a structure or trajectory by:
 </p>
 </details>
 
-## Assign a trajectory to a structure
+<details style='border:solid; border-color:#159957; border-width:2px; border-radius:5px; padding: 10px 15px 10px 15px; margin-bottom:10px'>
+    <summary style='cursor:pointer; display:list-item; color:#159957; font-size:1.5em'>Assign a trajectory to a structure</summary>
+
+<p markdown='1'>
 
 To match a trajectory to a structure, you must first import both ([How can I import a structure or trajectory?](#import-str)). 
 1. Open the Home panel on the left-hand side.
@@ -100,6 +103,9 @@ Now only the matched result is visible in the representation.
         </video>
     </figure>
 </center>
+
+</p>
+</details>
 
 ## Sharing a session
 
