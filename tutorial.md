@@ -239,22 +239,34 @@ Currently, only trajectories in the XTC format can be uploaded.
 
 <p>
 
-## How can I plot distances/angles/dihedrals of selected atoms throughout my trajectories?
-	
 1. Import your trajectory.
-2. Open the Structure Tools panel on the right side.
-3. Open the Measurements menu in the Structure Tools panel.
-4. Select the Add button in the Measurements menu.
-5. Activate the selection mode by clicking the last button of the buttons on the right side of the white canvas where the structure is displayed (Toggle selection mode). 
-6. An additional menu appears at the top of the white canvas.
-7. Select the button labeled Residue to change the granularity of the selection.
-8. Select the desired elements to add a measurement (two for distance, three for angle, four for area angle). The selected elements will be displayed in the Measurements menu. 
-9. Select the desired measurement in the Measurements menu to add it. 
-10. Open the Extensions field at the bottom.
-11. Open the Time-trace Plot menu.
-12. Select the measurement you just added to display its plot throughout the trajectory.
+2. Clean up the visualization by toggling the visibility for the importet files in the State Tree panel on the left side.
+3. Open the Structure Tools panel on the right side.
+4. Open the Measurements menu in the Structure Tools panel.
+5. Select the Add button in the Measurements menu.
+6. Activate the selection mode by clicking the last button of the buttons on the right side of the white canvas where the structure is displayed (Toggle selection mode). 
+7. An additional menu appears at the top of the white canvas.
+8. Select the button labeled Residue to change the granularity of the selection.
+9. Select the desired elements to add a measurement (two for distance, three for angle, four for area angle). The selected elements will be displayed in the Measurements menu. 
+10. Select the desired measurement in the Measurements menu to add it. 
+11. Open the Extensions panel at the bottom.
+12. Open the Time-trace Plot menu.
+13. Select the measurement you just added to display its plot throughout the trajectory.
 
-A guide with screenshots can be found at [Distance Plots](distances.html)
+There are various interaction possible:
+- Skipping to a specific frame by clicking on the value
+- Sorting the values by frame, ascending, and descending
+- Filtering the values
+- Switching the display to RMSD for the whole model
+    - Instead of a filter, it is now possible to change he comparison frame for the RMSD
+
+<center>
+    <figure class='video_container'>
+        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/plot.png'>
+            <source src='./videos/plot.mp4' type='video/mp4'>
+        </video>
+    </figure>
+</center>
 
 </p>
 </details>
