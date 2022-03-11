@@ -109,15 +109,17 @@ To match a trajectory to a structure, you must first import both (<a href="#t-im
 <details>
     <summary>Play trajectory</summary>
 
-<span>
+<p>
 
 You first need to import your trajectory (<a href="#t-import">How can I import a structure or trajectory?</a>).<br>
-After you imported your trajectory, a play button will appear in the top left corner of the white canvas where the structure is displayed.<br>
+After you imported your trajectory, a play button will appear in the top left corner of the white canvas where the structure is displayed.<br><br>
 
-In case you provided the coordinate file of the trajectory yourself, you must first match it with a structure (<a href="#t-assign-traj">How can I assign a trajectory to a structure?</a>).<br>
+In case you provided the coordinate file of the trajectory yourself, you must first match it with a structure (<a href="#t-assign-traj">How can I assign a trajectory to a structure?</a>).<br><br>
 After matching the trajectory, you need to clean up the visualization:<br>
-1. Open the State Tree panel on the left-hand side.<br>
-2. Toggle the visibility for the two imported files (same name as the original files).<br>
+<ol>
+    <li>Open the <i>State Tree</i> panel on the left-hand side.</li>
+    <li>Toggle the visibility for the two imported files (same name as the original files).</li>
+</ol>
 Now only the matched result is visible in the representation.<br>
 
 <center>
@@ -128,7 +130,7 @@ Now only the matched result is visible in the representation.<br>
     </figure>
 </center>
 
-</span>
+</p>
 </details>
 
 <a name='t-share-session'></a>
@@ -139,16 +141,22 @@ Now only the matched result is visible in the representation.<br>
 
 You can share your your in two ways:<br>
 
-- Through our server:<br>
-    1. Import the structures and trajectories you want to share (see Tutorials <a href="#t-import">How can I import a structure or trajectory?</a>, and <a href="#t-assign-traj">How can I assign a trajectory to a structure?</a>).<br>
-    2. Prepare your session as desired. <br>
-    3. Open the Remote Session menu in the Extensions panel at the bottom.<br>
-    4. Name your session<br>
-        - Optional: Enter a description by opening the Options area.<br>
-        - Optional: Change the server address.<br>
-    5. Click the Upload button.<br>
-    6. To share your session with others, right-click your session to open it in a new tab with its URL.<br>
-    7. Share this URL.
+<ul>
+    <li>Through our server:</li>
+    <ol>
+        <li>Import the structures and trajectories you want to share (see Tutorials <a href="#t-import">How can I import a structure or trajectory?</a>, and <a href="#t-assign-traj">How can I assign a trajectory to a structure?</a>).</li>
+        <li>Prepare your session as desired.</li>
+        <li>Open the Remote Session menu in the Extensions panel at the bottom.</li>
+        <li>Name your session.</li>
+        <ul>
+            <li>Optional: Enter a description by opening the Options area.</li>
+            <li>Optional: Change the server address.</li>
+        </ul>
+        <li>Upload button.</li>
+        <li>To share your session with others, right-click your session to open it in a new tab with its URL.</li>
+        <li>Share this URL.</li>
+    </ol>
+</ul>
 
 <center>
     <figure class='video_container'>
@@ -158,7 +166,9 @@ You can share your your in two ways:<br>
     </figure>
 </center>
 
-- Setting up your own MDsrv, see <a href="install.html#install">How can I assign a trajectory to a structure?</a>.
+<ul>
+    <li>Setting up your own MDsrv, see <a href="install.html#install">How can I assign a trajectory to a structure?</a>.</li>
+</ul>
 
 </p>
 </details>
@@ -167,7 +177,7 @@ You can share your your in two ways:<br>
 <details>
     <summary>Upload a trajectory to the MDsrv</summary>
 
-<p>
+<div markdown="1">
 
 The trajectory you want to store on our server must be publicly available on another server.<br>
 1. Open the Extensions Panel at the bottom.<br>
@@ -189,7 +199,7 @@ Currently, only trajectories in the XTC format can be uploaded.
     </figure>
 </center>
 
-</p>
+</div>
 </details>
 
 <a name='t-stream-traj'></a>
