@@ -124,7 +124,7 @@ Now only the matched result is visible in the representation.
 You can share your your in two ways:
 
 - Through our server:
-    1. Import the structures and trajectories you want to share (see FAQs [How can I import a structure or trajectory?](#import-str), and [How can I assign a trajectory to a structure?](#assign-str)).
+    1. Import the structures and trajectories you want to share (see Tutorials <a href="#t-import">How can I import a structure or trajectory?</a>, and <a href="#t-assign-traj">How can I assign a trajectory to a structure?</a>).
     2. Prepare your session as desired. 
     3. Open the Remote Session menu in the Extensions panel at the bottom.
     4. Name your session
@@ -142,7 +142,7 @@ You can share your your in two ways:
     </figure>
 </center>
 
-- Setting up your own MDsrv, see FAQs [How do I install a MDsrv server on my machine (Setting up your own server and viewer)?](#install).
+- Setting up your own MDsrv, see <a href="install.html#install">How can I assign a trajectory to a structure?</a>.
 
 </p>
 </details>
