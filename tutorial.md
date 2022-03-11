@@ -91,7 +91,7 @@ To match a trajectory to a structure, you must first import both ([How can I imp
 
 <a name='t-play'></a>
 <details>
-    <summary'>Play trajectory</summary>
+    <summary>Play trajectory</summary>
 
 <p>
 
