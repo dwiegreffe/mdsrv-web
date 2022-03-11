@@ -4,8 +4,15 @@ title: MDsrv
 
 <a name="install"></a>
 ## How do I install a MDsrv server on my machine (Setting up your own server and viewer)?
+We provide up-to-date images of the viewer and streaming server available at Dockerhub. 
 
-See: [https://github.com/dwiegreffe/mdsrv](https://github.com/dwiegreffe/mdsrv) README.md
+[Viewer](https://hub.docker.com/r/dwiegreffe/mdsrv-viewer)
+
+[Streaming Server](https://hub.docker.com/r/dwiegreffe/mdsrv-remote)
+
+The images can also be created with the following instructions: 
+
+[https://github.com/dwiegreffe/mdsrv](https://github.com/dwiegreffe/mdsrv) README.md
 
 <a name="import-tr-md"></a>
 ## How do I add a trajectory to my own MDsrv server?
