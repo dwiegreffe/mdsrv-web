@@ -8,11 +8,22 @@ title: MDsrv
 
 <a name='t-import'></a>
 <details>
-    <summary>Importing structures and trajectories</summary>
-
+    <summary>How can I import a structure or trajectory?</summary>
 <p><div markdown="1">
 
 You can find a detailed description on how to import structures and trajectories, inluding a video, in the tutorial section under [Importing structures and trajectories](tutorial.html).
+
+</div></p></details>
+
+<a name='faq-vis-traj'></a>
+<details>
+    <summary>How can I visualize my trajectory?</summary>
+<p><div markdown="1">
+
+To visualize your trajectory follow the steps in the tutorials:
+- <a href="tutorial.html#t-import">Importing structures and trajectories</a>
+- <a href="tutorial.html#t-assign-traj">Assign a trajectory to a structure</a>
+- <a href="tutorial.html#t-play">Play trajectory</a>
 
 </div></p></details>
 
@@ -21,15 +32,6 @@ You can find a detailed description on how to import structures and trajectories
 ## How can I assign a trajectory to a structure?
 
 You can find a detailes description on how to assign a trajectory to a structure, including a video, in the tutorial section under [Assign a trajectory to a structure](tutorial.html).
-
-<a name='faq-vis-traj'></a>
-
-## How can I visualize my trajectory?
-
-To visualize your trajectory follow the steps in the tutorials:
-- [Importing structures and trajectories](tutorial.html)
-- [Assign a trajectory to a structure](tutorial.html)
-- [Play trajectory](tutorial.html)
 
 ## How do I play my trajectory?
 
