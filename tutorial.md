@@ -146,13 +146,13 @@ You can share your your in two ways:<br>
     <ol>
         <li>Import the structures and trajectories you want to share (see Tutorials <a href="#t-import">How can I import a structure or trajectory?</a>, and <a href="#t-assign-traj">How can I assign a trajectory to a structure?</a>).</li>
         <li>Prepare your session as desired.</li>
-        <li>Open the Remote Session menu in the Extensions panel at the bottom.</li>
+        <li>Open the <i>Remote Session</i> menu in the <i>Extensions</i> panel at the bottom.</li>
         <li>Name your session.</li>
         <ul>
-            <li>Optional: Enter a description by opening the Options area.</li>
+            <li>Optional: Enter a description by opening the <i>Options</i> area.</li>
             <li>Optional: Change the server address.</li>
         </ul>
-        <li>Upload button.</li>
+        <li>Select the <i>Upload</i> button.</li>
         <li>To share your session with others, right-click your session to open it in a new tab with its URL.</li>
         <li>Share this URL.</li>
     </ol>
@@ -177,18 +177,20 @@ You can share your your in two ways:<br>
 <details>
     <summary>Upload a trajectory to the MDsrv</summary>
 
-<div markdown="1">
+<p>
 
 The trajectory you want to store on our server must be publicly available on another server.<br>
-1. Open the Extensions Panel at the bottom.<br>
-2. Open the Add Trajectory to Stream Server menu.<br>
-3. Optionally, if you want to upload the trajectory to another MDsrv instance, adjust the Server parameter accordingly.<br>
-4. Enter the URL of the trajectory file.<br>
-5. Name the trajectory. (If there is already a trajectory with the same name, a message will appear in the Log panel. Please change the name.)<br>
-6. Add a more detailed description for your trajectory.<br>
-7. Select Upload Trajectory to Server.<br>
-8. When the trajectory is successfully uploaded, a message appears in the Log panel.<br>
-9. To visualize the uploaded trajectory, see <a href="#t-stream-traj">How do I stream a trajectory from the MDsrv?</a>).<br>
+<ol>
+    <li>Open the <i>Extensions Panel</i> at the bottom.</li>
+    <li>Open the <i>Add Trajectory to Stream Server</i> menu.</li>
+    <li>Optionally, if you want to upload the trajectory to another MDsrv instance, adjust the <i>Server</i> parameter accordingly.</li>
+    <li>Enter the <i>URL</i> of the trajectory file.</li>
+    <li>Name the trajectory. (If there is already a trajectory with the same name, a message will appear in the <i>Log</i> panel. Please change the name.)</li>
+    <li>Add a more detailed description for your trajectory.</li>
+    <li>Select the <i>Upload Trajectory to Server</i> button.</li>
+    <li>When the trajectory is successfully uploaded, a message appears in the <i>Log</i> panel.</li>
+    <li>To visualize the uploaded trajectory, see <a href="#t-stream-traj">How do I stream a trajectory from the MDsrv?</a>).</li>
+</ol>
 Currently, only trajectories in the XTC format can be uploaded.
 
 <center>
@@ -199,14 +201,14 @@ Currently, only trajectories in the XTC format can be uploaded.
     </figure>
 </center>
 
-</div>
+</p>
 </details>
 
 <a name='t-stream-traj'></a>
 <details>
     <summary>Stream a trajectory from the MDsrv</summary>
 
-<p>
+<div markdown="1">
 
 1. Open the Extensions panel at the bottom.<br>
 2. Open the Match Trajectory Stream menu.<br>
@@ -225,7 +227,7 @@ Currently, only trajectories in the XTC format can be uploaded.
     </figure>
 </center>
 
-</p>
+</div>
 </details>
 
 <a name='t-alignment'></a>
