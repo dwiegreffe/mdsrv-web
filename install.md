@@ -14,6 +14,10 @@ The images can also be created with the following instructions:
 
 [https://github.com/dwiegreffe/mdsrv](https://github.com/dwiegreffe/mdsrv) README.md
 
+A description of Docker and how to use it can be found here: 
+
+[Docker](https://docs.docker.com/get-started/)
+
 <a name="import-tr-md"></a>
 ## How do I add a trajectory to my own MDsrv server?
 
