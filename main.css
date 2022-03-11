@@ -15,10 +15,10 @@ details summary {
 }
 
 .faq details{
-    border: solid;
+    border-bottom: solid;
     border-color: #159957;
-    border-width: 1.5px;
-    border-radius: 5px;
+    border-width: 1px;
+    border-radius: 0px;
     padding: 10px 15px 10px 15px;
     margin-bottom: 10px;
 }

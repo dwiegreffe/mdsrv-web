@@ -160,6 +160,7 @@ You can share your your in two ways:<br>
         <li>Select the <i>Upload</i> button.</li>
         <li>To share your session with others, right-click your session to open it in a new tab with its URL.</li>
         <li>Share this URL.</li>
+        
     </ol>
 </ul>
 

@@ -10,42 +10,55 @@ title: MDsrv
 <details>
     <summary>How can I import a structure or trajectory?</summary>
 <p><div markdown="1">
+You can find a detailed description on how to import structures and trajectories, inluding a video, in the tutorial section under <a href="tutorial.html#t-import">Importing structures and trajectories</a>.
+</div></p></details>
 
-You can find a detailed description on how to import structures and trajectories, inluding a video, in the tutorial section under [Importing structures and trajectories](tutorial.html).
-
+<details>
+    <summary>How can I assign a trajectory to a structure?</summary>
+<p><div markdown="1">
+You can find a detailes description on how to assign a trajectory to a structure, including a video, in the tutorial section under <a href="tutorial.html#t-assign-traj">Assign a trajectory to a structure</a>.
 </div></p></details>
 
 <a name='faq-vis-traj'></a>
 <details>
     <summary>How can I visualize my trajectory?</summary>
 <p><div markdown="1">
-
 To visualize your trajectory follow the steps in the tutorials:
 - <a href="tutorial.html#t-import">Importing structures and trajectories</a>
 - <a href="tutorial.html#t-assign-traj">Assign a trajectory to a structure</a>
 - <a href="tutorial.html#t-play">Play trajectory</a>
+</div></p></details>
+
+<details>
+    <summary>How do I play my trajectory?</summary>
+<p><div markdown="1">
+You can find a detailed description on how to play a trajectory, inluding a video, in the tutorial section under <a href="tutorial.html#t-play">Play trajectory</a>.
+</div></p></details>
+
+<a name='faq-share-session'></a>
+<details>
+    <summary>How can I share the session I have prepared?</summary>
+<p><div markdown="1">
+You can share your session in two ways. A detailed description on how to share a session, inluding a video, can be found in the tutorial section under <a href="tutorial.html#t-share-session">Sharing a session</a>.
+</div></p></details>
+
+<details>
+    <summary>How can I share my trajectory?</summary>
+<p><div markdown="1">
+You can share your trajectory by sharing your session. Check out the Tutorial <a href="tutorial.html#t-share-session">Sharing a session</a>.
+</div></p></details>
+
+<details>
+    <summary></summary>
+<p><div markdown="1">
 
 </div></p></details>
 
 </div>
 
-## How can I assign a trajectory to a structure?
 
-You can find a detailes description on how to assign a trajectory to a structure, including a video, in the tutorial section under [Assign a trajectory to a structure](tutorial.html).
 
-## How do I play my trajectory?
 
-You can find a detailed description on how to play a trajectory, inluding a video, in the tutorial section under [Play trajectory](tutorial.html).
-
-<a name='faq-share-session'></a>
-
-## How can I share the session I have prepared?
-
-You can share your session in two ways. A detailed description on how to share a session, inluding a video, can be found in the tutorial section under [Sharing a session](tutorial.html).
-
-## How can I share my trajectory?
-
-You can share your trajectory by sharing your session. Check out the FAQ: [How can I share the session I have prepared?](#faq-share-session)
 
 ## How can I upload my trajectory to MDsrv?
 
