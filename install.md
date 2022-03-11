@@ -12,7 +12,7 @@ We provide up-to-date images of the viewer and streaming server available at Doc
 
 The images can also be created with the following instructions: 
 
-[https://github.com/dwiegreffe/mdsrv](https://github.com/dwiegreffe/mdsrv) README.md
+[https://github.com/dwiegreffe/mdsrv](https://github.com/dwiegreffe/mdsrv)
 
 A description of Docker and how to use it can be found here: 
 
