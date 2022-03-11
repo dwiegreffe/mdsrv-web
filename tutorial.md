@@ -174,8 +174,7 @@ Currently, only trajectories in the XTC format can be uploaded.
     </figure>
 </center>
 
-</p>
-</details>
+</div></p></details>
 
 <a name='t-stream-traj'></a>
 <details>
