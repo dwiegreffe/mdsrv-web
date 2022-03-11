@@ -5,8 +5,7 @@ title: MDsrv
 # Tutorials
 
 <details markdown='1' style='border:solid; border-color:#159957; border-width:2px; border-radius:5px; padding: 10px 15px 10px 15px;'>
-    <summary markdown='span' style='cursor:pointer; display:list-item; color:#159957; '>Importing structures and trajectories</summary>
-    <summary markdown='span' style='cursor:pointer; display:list-item; color:#159957'>Importing structures and trajectories</summary>
+    <summary style='cursor:pointer; display:list-item; color:#159957; font-size:1.5em'>Importing structures and trajectories</summary>
 
 You can import a structure or trajectory by:
 - providing the files from your local machine
