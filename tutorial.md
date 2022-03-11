@@ -5,8 +5,8 @@ title: MDsrv
 # Tutorials
 
 <details>
-    <summary>
-    Importing structures and trajectories
+    <summary style='cursor:pointer; display:inline'>
+    <h2>Importing structures and trajectories</h2>
     </summary>
 
 You can import a structure or trajectory by:
