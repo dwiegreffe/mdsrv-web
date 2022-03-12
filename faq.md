@@ -234,4 +234,16 @@ No, you can use our server to visualize and share your trajectories. You can fin
 
 </div></p></details>
 
+<details>
+    <summary>How do I open the menu panels?</summary>
+<p><div markdown="1">
+
+</div></p></details>
+
+<details>
+    <summary>How do I close the menu panels?</summary>
+<p><div markdown="1">
+
+</div></p></details>
+
 </div>

@@ -236,7 +236,7 @@ Currently, only trajectories in the XTC format can be uploaded.
 
 1. Import the trajectory you want to calculate the measurement for.
     See Tutorials
-    - <a href="#t-import">Importoing structures and trajectories</a>
+    - <a href="#t-import">Importing structures and trajectories</a>
     - <a href="#t-assign-traj">Assign a trajectory to a structure</a>
 2. Clean up the visualization by toggling the visibility for the importet files in the _State Tree_ panel on the left side.
 3. Open the _Structure Tools_ panel on the right side.
