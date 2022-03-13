@@ -151,34 +151,34 @@ No, you can use our server to visualize and share your trajectories. You can fin
 There are multiple ways to change the coloring of the representation of your molecules.
 You can descide between changing the color of a whole component or just a selection you made.
 
-To change the color of a whole component:
-1. Open the _Components_ menu in the _Structure Tools_ panel on the right side. 
-2. There you will find a list of all components in the scene. 
-<center><img src='images/components_coloring_1.png'></center>
-3. Select the _Options_ button for the component you want to color (button with three dots). A submenu will appear. 
-<center><img src='images/components_coloring_2.png'></center>
-<center><img src='images/components_coloring_3.png'></center>
-4. Select _Set Coloring_ and choose the coloring of your liking. 
-<center><img src='images/components_coloring_4.png'></center>
+- To change the color of a whole component:
+    1. Open the _Components_ menu in the _Structure Tools_ panel on the right side. 
+    2. There you will find a list of all components in the scene. 
+    <center><img src='images/components_coloring_1.png'></center>
+    3. Select the _Options_ button for the component you want to color (button with three dots). A submenu will appear. 
+    <center><img src='images/components_coloring_2.png'></center>
+    <center><img src='images/components_coloring_3.png'></center>
+    4. Select _Set Coloring_ and choose the coloring of your liking. 
+    <center><img src='images/components_coloring_4.png'></center>
 
-If you only want to change the color of a single part of one Model:
-1. Open the _State Tree_ panel on the left side.
-2. Find the representation you want to change the coloring for. 
-<center><img src='images/state_tree_coloring_1.png'></center>
-3. Select the repesentation. A sub menu will appear under it. 
-4. Select _Update 3D Representation_ to open another sub menu. 
-<center><img src='images/state_tree_coloring_2.png'></center>
-5. Now you can choose the coloring of your liking. 
-<center><img src='images/state_tree_coloring_3.png'></center>
+- If you only want to change the color of a single part of one Model:
+    1. Open the _State Tree_ panel on the left side.
+    2. Find the representation you want to change the coloring for. 
+    <center><img src='images/state_tree_coloring_1.png'></center>
+    3. Select the repesentation. A sub menu will appear under it. 
+    4. Select _Update 3D Representation_ to open another sub menu. 
+    <center><img src='images/state_tree_coloring_2.png'></center>
+    5. Now you can choose the coloring of your liking. 
+    <center><img src='images/state_tree_coloring_3.png'></center>
 
-It is also possible to change the color of a selection you made:
-1. Select the _Toggle Selection Mode_ button. 
-<center><img src='images/toggle_selection_mode.png'></center>
-2. Select the part of your structure you want to color.
-3. Select the _Apply Theme to Selection_ button. 
-<center><img src='images/apply_theme_to_selection.png'></center>
-4. Choose a color of your liking.
-5. Select the _Apply theme_ button. 
+- It is also possible to change the color of a selection you made:
+    1. Select the _Toggle Selection Mode_ button. 
+    <center><img src='images/toggle_selection_mode.png'></center>
+    2. Select the part of your structure you want to color.
+    3. Select the _Apply Theme to Selection_ button. 
+    <center><img src='images/apply_theme_to_selection.png'></center>
+    4. Choose a color of your liking.
+    5. Select the _Apply theme_ button. 
 </div></p></details>
 
 <details>
@@ -248,7 +248,7 @@ You can find a detailed description on how to add a measurement, inluding a vide
 <p><div markdown="1">
 
 If you are trying to select a structures, but he camera is always focusing on it, you forgot to toggle the _Selction Mode_. To active the _Selection Mode_, click the _Toggle Selection Mode_ button (check out the FAQ on <a href="#faq_selection_mode_button">Where do I find the <i>Toggle Selection Mode</i> button?</a>). The _Selection Mode_ is active as long as the _Selection Mode Menu_ is visible at the top of the white canvas. 
-![Selecion Mode Menu](/images/selection_menu.png)
+<center><img src='images/selection_menu.png'></center>
 </div></p></details>
 
 <details>
@@ -296,11 +296,9 @@ Yes you can. After importing and assigning you trajectory, the _Select Animation
 
 <center><img src='images/animation_mode_1.png'></center>
 
-Select the button to open an additional menu for changing the plan mode of the trajectory.
-
+1. Select the button to open an additional menu for changing the plan mode of the trajectory.
 <center><img src='images/animation_mode_2.png'></center>
-
-Select _Start_ to play the trajectory.
+2. Select _Start_ to play the trajectory.
 </div></p></details>
 
 <details>
