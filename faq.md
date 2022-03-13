@@ -279,13 +279,13 @@ You can descide between changing the color of a whole component or just a select
 </div></p></details>
 
 <details>
-    <summary>I only want a specific part of my structure to be visible, how do I achieve this?</summary>
+    <summary>I selected an amino acid in the <i>Sequence View</i> at the top to zoom into my trajectory, but I get an overlay of another structure. Why is this happening?</summary>
 <p><div markdown="1">
-
+This can happen if you have not selected the correct structure for the _Sequence View_. Select the drop-down menu on the right side of the _Sequence of_ dialog in the _Sequence View_ to change which structure or trajectory is displayed in it. Check that the correct sequence is displayed by hovering the over the residues and check that they are highlighted appropriately in the visible trajectory. If so, you have selected the correct trajectory for the _Sequence View_. Now, if you select the amino acid in the _Sequence View_ again, you should not get an overlay.
 </div></p></details>
 
 <details>
-    <summary>I selected an amino acid in the seuquence view at the top to zoom into my trajectory, but I get an overlay of another structure. Why is this happening?</summary>
+    <summary>I only want a specific part of my structure to be visible, how do I achieve this?</summary>
 <p><div markdown="1">
 
 </div></p></details>
