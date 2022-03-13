@@ -91,7 +91,7 @@ You can find a detailed description on how to align two or more structures based
 <details>
     <summary>How can I import an alignment?</summary>
 <p><div markdown="1">
-Import the Clustal file (.aln) using the Open Local Files menu in the Home panel on the left-hand side. 
+Import the Clustal file (_.aln_) using the _Open Local Files_ menu in the _Home_ panel on the left-hand side. 
 
 To match the alignemnt to structures, check out the tutorial on <a href="tutorial.html#t-alignment">Superpose structures based on a sequence alignment</a>.
 </div></p></details>
@@ -105,7 +105,7 @@ You can find a detailed description on how to add a measurement to a trajectory,
 <details>
     <summary>How can I visualize trajectories that are stored on another server that is not an MDsrv?</summary>
 <p><div markdown="1">
-You can download the trajectory to your computer and follow the steps on <a href="faq-vis-traj">how to visualize your trajectory</a>.
+You can download the trajectory to your computer and follow the steps on <a href="#faq-vis-traj">how to visualize your trajectory</a>.
 
 If the trajectory is too large to vizualize it this way, you can upload it to our MDsrv by follow the steps in the tutorial <a href="tutorial.html#t-upload-traj">Upload a trajectory to the MDsrv</a>.
 
@@ -247,7 +247,7 @@ You can find a detailed description on how to add a measurement, inluding a vide
     <summary>I want to select a chain or atom and not focus on it. How?</summary>
 <p><div markdown="1">
 
-If you are trying to select a structures, but he camera is always focusing on it, you forgot to toggle the _Selction Mode_. To active the _Selection Mode_, click the _Toggle Selection Mode_ button (check out the FAQ on <a href="faq_selection_mode_button">Where do I find the <i>Toggle Selection Mode</i> button?</a>). The _Selection Mode_ is active as long as the _Selection Mode Menu_ is visible at the top of the white canvas. 
+If you are trying to select a structures, but he camera is always focusing on it, you forgot to toggle the _Selction Mode_. To active the _Selection Mode_, click the _Toggle Selection Mode_ button (check out the FAQ on <a href="#faq_selection_mode_button">Where do I find the <i>Toggle Selection Mode</i> button?</a>). The _Selection Mode_ is active as long as the _Selection Mode Menu_ is visible at the top of the white canvas. 
 ![Selecion Mode Menu](/images/selection_menu.png)
 </div></p></details>
 
