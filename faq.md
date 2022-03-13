@@ -138,16 +138,40 @@ It is possible to directly import data from public data bases like the PDB. Just
 No, you can use our server to visualize and share your trajectories. You can find different Tutorials on how to import and share structures and trajectories on the <a href="tutorial.html">Tutorial</a> page.
 </div></p></details>
 
+<a name='faq_selection_mode_button'></a>
 <details>
-    <summary>How can I select a chain or atoms to be shown or highlighted?</summary>
+    <summary>Where do I find the <i>Toggle Selection Mode</i> button?</summary>
 <p><div markdown="1">
+
+![ALT](/images/toggle_selection_mode_2.png)
 
 </div></p></details>
 
 <details>
     <summary>How can I change the coloring and representation of my molecules?</summary>
 <p><div markdown="1">
+There are multiple ways to change the coloring of the representation of your molecules.
+You can descide between changing the color of a whole component or just a selection you made.
 
+To change the color of a whole component:
+1. Open the _Components_ menu in the _Structure Tools_ panel on the right side. 
+2. There you will find a list of all components in the scene. ![ALT](/images/components_coloring_1.png)
+3. Select the _Options_ button for the component you want to color (button with three dots). A submenu will appear. ![ALT](/images/components_coloring_2.png) ![ALT](/images/components_coloring_3.png)
+4. Select _Set Coloring_ and choose the coloring of your liking. ![ALT](/images/components_coloring_4.png)
+
+If you only want to change the color of a single part of one Model:
+1. Open the _State Tree_ panel on the left side.
+2. Find the representation you want to change the coloring for. ![ALT](/images/state_tree_coloring_1.png)
+3. Select the repesentation. A sub menu will appear under it. 
+4. Select _Update 3D Representation_ to open another sub menu. ![ALT](/images/state_tree_coloring_2.png)
+5. Now you can choose the coloring of your liking. ![ALT](/images/state_tree_coloring_3.png)
+
+It is also possible to change the color of a selection you made:
+1. Select the _Toggle Selection Mode_ button. ![ALT](/images/toggle_selection_mode.png)
+2. Select the part of your structure you want to color.
+3. Select the _Apply Theme to Selection_ button. ![ALT](/images/apply_theme_to_selection.png)
+4. Choose a color of your liking.
+5. Select the _Apply theme_ button. 
 </div></p></details>
 
 <details>
@@ -183,67 +207,111 @@ No, you can use our server to visualize and share your trajectories. You can fin
 <details>
     <summary>Can I download my viszualization as an image or video?</summary>
 <p><div markdown="1">
+If you want to save your scene as an image, preprare the scene as you want to save it. Then select the _Screenshot_ button and select _Download_ to save the image. ![ALT](/images/screenshot.png)
+
+You can also download an animation for your scene.
+1. Open the _Structure Tools_ panel on the right side.
+2. Open the _Export Animation_ menu.
+    - There are multiple animations available:
+        - Animate Trajectory
+        - Camera Spin
+        - Camera Rock
+        - State Snapshots
+        - Unwind Assembly
+        - Spin Structure
+    ![ALT](/images/export_animation_1.png)
+3. Change the options as wanted.
+4. Select _Render_.
+5. Wait until the scene is rendered.
+6. Select _Save Animation_ to download the video. ![ALT](/images/export_animation_2.png)
 
 </div></p></details>
 
 <details>
     <summary>How do I add a measurement?</summary>
 <p><div markdown="1">
-
+You can find a detailed description on how to add a measurement, inluding a video, in the tutorial section under <a href="tutorial.html#t-plot">Add a time-trace plot of a measurement for a trajectory</a>. The first part of the tutorial describes how a measurement is added. 
 </div></p></details>
 
 <details>
     <summary>I want to select a chain or atom and not focus on it. How?</summary>
 <p><div markdown="1">
 
+If you are trying to select a structures, but he camera is always focusing on it, you forgot to toggle the _Selction Mode_. To active the _Selection Mode_, click the _Toggle Selection Mode_ button (check out the FAQ on <a href="faq_selection_mode_button">Where do I find the <i>Toggle Selection Mode</i> button?</a>). The _Selection Mode_ is active as long as the _Selection Mode Menu_ is visible at the top of the white canvas. 
+![Selecion Mode Menu](/images/selection_menu.png)
 </div></p></details>
 
 <details>
     <summary>How can I open and close the panels?</summary>
 <p><div markdown="1">
+There are multiple ways to open and close the menu panels.
 
+On the far left side, you can find an overview for all panels:
+
+![ALT](/images/panels_2.png)
+
+- Home 
+- State Tree
+- Plugin Settings
+- Help
+- Log
+- Extensions
+- Structure Tools
+
+On default, all panels are closed except for the _Log_ panel. Selecting the icon for the respective panel opens or closes it. The icon is displayed in white when the panel is open. 
+
+![In this example the Home, Log, and Extensions panel is open.](/images/panels_4.png)
+
+Additionally, you can close the panels (except the _Log_) by clicking on their headers: 
+
+![ALT](/images/panels_3.png).
+
+You can open the left, _Extensions_, and _Strucure Tools_ panels by clicking on the buttons in the white canvas on their respective sides. 
+
+![Example for the button opening the left panel](/images/panels_1.png)
 </div></p></details>
 
 <details>
     <summary>Why do I not see a structure or trajectory?</summary>
 <p><div markdown="1">
+If you do not see a structure after you imported , there may have been an error during the importing process. Check the _Log_ at the bottom to identify possible errors.
 
+If you imported a coordinate file of a trajectory, you must also import a structure you can match the coordinates to. Follow the steps in the tutorial on <a href="tutorial.html#t-assign-traj">Assign a trajectory to a structure</a>.
+
+If your structure was visible before and now it is not, you may need to check the _State Tree_ to see if your structure is still available. If you can find your structure, check the _visibility toggle_ (eye icon) and turn it on if necessary. If your structure is no longer available, you will need to import it again.
 </div></p></details>
 
 <details>
     <summary>Can I change the play mode of the trajectory?</summary>
 <p><div markdown="1">
 
+Yes you can. After importing and assigning you trajectory, the _Select Animation_ button will appear.
+![ALT](/images/animation_mode_1.png)
+Select the button to open an additional menu for changing the plan mode of the trajectory.
+![ALT](/images/animation_mode_2.png)
+Select _Start_ to play the trajectory.
 </div></p></details>
 
 <details>
     <summary>Why is only part of my trajectory moving? Why is there an overlapping?</summary>
 <p><div markdown="1">
+After you have assigned your trajectory to your structure, you have not cleaned up the visualization. Currently, both the models of your static structure and your moving trajectory are displayed. To clean up your visualization, open the _State Tree_ on the left and turn off the visibility for your static structure to which you assigned the coordinates of your trajectory.
 
+For a more detailed description on how to clean up the visulation, you can check out the tutorial on <a href="tutorial.html#t-assign-traj">Assign a trajectory to a structure</a>.
 </div></p></details>
 
 <details>
     <summary>How do I get the URL to my saved session?</summary>
 <p><div markdown="1">
+After you saved your session to the MDsrv, you have to right-click on your session in the session list. A new tab will open with the URL you want to share.
 
+For a more detailed description on how to save a session to the MDsrv and obtain the URL for sharing your session, you can check out the tutorial on <a href="tutorial.html#t-share-session">Sharing a session</a>.
 </div></p></details>
 
 <details>
     <summary>How can I add a sequence alignment</summary>
 <p><div markdown="1">
-
-</div></p></details>
-
-<details>
-    <summary>How do I open the menu panels?</summary>
-<p><div markdown="1">
-
-</div></p></details>
-
-<details>
-    <summary>How do I close the menu panels?</summary>
-<p><div markdown="1">
-
+You can find a detailed description on how to add a sequence alinment, inluding a video, in the tutorial section under <a href="tutorial.html#t-alignment">Superpose structures based on a sequence alignment</a>.
 </div></p></details>
 
 </div>
