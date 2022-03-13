@@ -26,6 +26,13 @@ It is possible to directly import data from public data bases like the PDB. Just
 </div></p></details>
 
 <details>
+    <summary>I imported my trajectory file, but nothing is showing. Why?</summary>
+<p><div markdown="1">
+When you upload a file with the coordinates for a trajectory, for example a _.xtc_ file, you must also import a structure to which you can match the coordinates. Otherwise, you will not see a representation of your data. 
+You can find a detailes description on how to assign a trajectory to a structure, including a video, in the tutorial section under <a href="tutorial.html#t-assign-traj">Assign a trajectory to a structure</a>.
+</div></p></details>
+
+<details>
     <summary>How can I assign a trajectory to a structure?</summary>
 <p><div markdown="1">
 You can find a detailes description on how to assign a trajectory to a structure, including a video, in the tutorial section under <a href="tutorial.html#t-assign-traj">Assign a trajectory to a structure</a>.
