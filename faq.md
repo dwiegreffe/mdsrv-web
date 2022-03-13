@@ -286,8 +286,15 @@ This can happen if you have not selected the correct structure for the _Sequence
 
 <details>
     <summary>I only want a specific part of my structure to be visible, how do I achieve this?</summary>
-<p><div markdown="1">
+<p><div markdown="1">    
 
+<center>
+    <figure class='video_container'>
+        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/components.png'>
+            <source src='./videos/components.mp4' type='video/mp4'>
+        </video>
+    </figure>
+</center>
 </div></p></details>
 
 <details>
