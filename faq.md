@@ -142,9 +142,7 @@ No, you can use our server to visualize and share your trajectories. You can fin
 <details>
     <summary>Where do I find the <i>Toggle Selection Mode</i> button?</summary>
 <p><div markdown="1">
-
-![ALT](/images/toggle_selection_mode_2.png)
-
+<center><img src='images/toggle_selection_mode_2.png'></center>
 </div></p></details>
 
 <details>
@@ -155,21 +153,30 @@ You can descide between changing the color of a whole component or just a select
 
 To change the color of a whole component:
 1. Open the _Components_ menu in the _Structure Tools_ panel on the right side. 
-2. There you will find a list of all components in the scene. ![ALT](/images/components_coloring_1.png)
-3. Select the _Options_ button for the component you want to color (button with three dots). A submenu will appear. ![ALT](/images/components_coloring_2.png) ![ALT](/images/components_coloring_3.png)
-4. Select _Set Coloring_ and choose the coloring of your liking. ![ALT](/images/components_coloring_4.png)
+2. There you will find a list of all components in the scene. 
+<center><img src='images/components_coloring_1.png'></center>
+3. Select the _Options_ button for the component you want to color (button with three dots). A submenu will appear. 
+<center><img src='images/components_coloring_2.png'></center>
+<center><img src='images/components_coloring_3.png'></center>
+4. Select _Set Coloring_ and choose the coloring of your liking. 
+<center><img src='images/components_coloring_4.png'></center>
 
 If you only want to change the color of a single part of one Model:
 1. Open the _State Tree_ panel on the left side.
-2. Find the representation you want to change the coloring for. ![ALT](/images/state_tree_coloring_1.png)
+2. Find the representation you want to change the coloring for. 
+<center><img src='images/state_tree_coloring_1.png'></center>
 3. Select the repesentation. A sub menu will appear under it. 
-4. Select _Update 3D Representation_ to open another sub menu. ![ALT](/images/state_tree_coloring_2.png)
-5. Now you can choose the coloring of your liking. ![ALT](/images/state_tree_coloring_3.png)
+4. Select _Update 3D Representation_ to open another sub menu. 
+<center><img src='images/state_tree_coloring_2.png'></center>
+5. Now you can choose the coloring of your liking. 
+<center><img src='images/state_tree_coloring_3.png'></center>
 
 It is also possible to change the color of a selection you made:
-1. Select the _Toggle Selection Mode_ button. ![ALT](/images/toggle_selection_mode.png)
+1. Select the _Toggle Selection Mode_ button. 
+<center><img src='images/toggle_selection_mode.png'></center>
 2. Select the part of your structure you want to color.
-3. Select the _Apply Theme to Selection_ button. ![ALT](/images/apply_theme_to_selection.png)
+3. Select the _Apply Theme to Selection_ button. 
+<center><img src='images/apply_theme_to_selection.png'></center>
 4. Choose a color of your liking.
 5. Select the _Apply theme_ button. 
 </div></p></details>
@@ -207,7 +214,8 @@ It is also possible to change the color of a selection you made:
 <details>
     <summary>Can I download my viszualization as an image or video?</summary>
 <p><div markdown="1">
-If you want to save your scene as an image, preprare the scene as you want to save it. Then select the _Screenshot_ button and select _Download_ to save the image. ![ALT](/images/screenshot.png)
+If you want to save your scene as an image, preprare the scene as you want to save it. Then select the _Screenshot_ button and select _Download_ to save the image.
+<center><img src='images/screenshot.png'></center>
 
 You can also download an animation for your scene.
 1. Open the _Structure Tools_ panel on the right side.
@@ -219,11 +227,13 @@ You can also download an animation for your scene.
         - State Snapshots
         - Unwind Assembly
         - Spin Structure
-    ![ALT](/images/export_animation_1.png)
+    <center><img src='images/export_animation_1.png'></center>
+
 3. Change the options as wanted.
 4. Select _Render_.
 5. Wait until the scene is rendered.
-6. Select _Save Animation_ to download the video. ![ALT](/images/export_animation_2.png)
+6. Select _Save Animation_ to download the video. 
+    <center><img src='images/export_animation_2.png'></center>
 
 </div></p></details>
 
@@ -247,9 +257,7 @@ If you are trying to select a structures, but he camera is always focusing on it
 There are multiple ways to open and close the menu panels.
 
 On the far left side, you can find an overview for all panels:
-
-![ALT](/images/panels_2.png)
-
+<center><img src='images/panels_2.png'></center>
 - Home 
 - State Tree
 - Plugin Settings
@@ -260,15 +268,14 @@ On the far left side, you can find an overview for all panels:
 
 On default, all panels are closed except for the _Log_ panel. Selecting the icon for the respective panel opens or closes it. The icon is displayed in white when the panel is open. 
 
-![In this example the Home, Log, and Extensions panel is open.](/images/panels_4.png)
+<center><img src='images/panels_4.png' alt='In this example the Home, Log, and Extensions panel is open.'></center>
 
 Additionally, you can close the panels (except the _Log_) by clicking on their headers: 
-
-![ALT](/images/panels_3.png).
+<center><img src='images/panels_3.png'></center>
 
 You can open the left, _Extensions_, and _Strucure Tools_ panels by clicking on the buttons in the white canvas on their respective sides. 
+<center><img src='images/panels_1.png'></center>
 
-![Example for the button opening the left panel](/images/panels_1.png)
 </div></p></details>
 
 <details>
@@ -286,9 +293,13 @@ If your structure was visible before and now it is not, you may need to check th
 <p><div markdown="1">
 
 Yes you can. After importing and assigning you trajectory, the _Select Animation_ button will appear.
-![ALT](/images/animation_mode_1.png)
+
+<center><img src='images/animation_mode_1.png'></center>
+
 Select the button to open an additional menu for changing the plan mode of the trajectory.
-![ALT](/images/animation_mode_2.png)
+
+<center><img src='images/animation_mode_2.png'></center>
+
 Select _Start_ to play the trajectory.
 </div></p></details>
 
