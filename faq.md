@@ -196,16 +196,29 @@ You can find a detailed description on how to add a measurement, inluding a vide
 You can find a detailed description on how to add a measurement to a trajectory, inluding a video, in the tutorial section under <a href="tutorial.html#t-plot">Superpose structures based on a sequence alignment</a>. The first part covers the adding of a measurement to the trajectory.
 </div></p></details>
 
+<a name='faq_measurement_fix'></a>
 <details>
     <summary>I added a measurement to my trajectory, but it is not updating when I change the frame?</summary>
 <p><div markdown="1">
+If you imported and assigned the trajectory correctly, you may not have cleaned up your visualization and added the measurement to your static structure to which you assigned the coordinates of your trajectory. 
 
+If you have cleaned up the visualization and this still occurs, you probably selected the structures for your measurement using the _Sequence View_ at the top. Even if you have cleaned up the visualization, the _Sequence View_ still contains all the sequences from the static structure, and you probably added the measurement to it. To change the sequences in the _Sequence View_ to your trajectory, select the drop-down menu to the right of _Sequence of_. The tricky part is that they both have the same name. Once you have selected your trajectory in the _Sequence View_, make sure that the visibility of your static structure is turned off. Then hover over the sequence in the _Sequence View_ and check to see if the corresponding residues are highlighted in the displayed trajectory. If so, then the sequences in the _Sequence View_ are from your trajectory. Now you can add the measurement again.
+
+<center>
+    <figure class='video_container'>
+        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/measurement_fix.png'>
+            <source src='./videos/measurement_fix.mp4' type='video/mp4'>
+        </video>
+    </figure>
+</center>
 </div></p></details>
 
 <details>
     <summary>I added a measurement to my trajectory, but there is no time-trace plot available?</summary>
 <p><div markdown="1">
+If you imported and assigned the trajectory correctly, you may not have cleaned up your visualization and added the measurement to your static structure to which you assigned the coordinates of your trajectory. 
 
+To fix your problem, check out the steps or the video in FAQ: <a href="#faq_measurement_fix">I added a measurement to my trajectory, but it is not updating when I change the frame?</a>
 </div></p></details>
 
 <details>
