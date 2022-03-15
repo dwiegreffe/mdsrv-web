@@ -143,12 +143,11 @@ Now only the matched result is visible in the representation.
 You can share your your in two ways:
 
 - Through our server:
-    1. Import the structures and trajectories you want to share
-    
-        See Tutorials
-        - <a href="#tutorial-import-structure">Importing a structure</a>.
-        - <a href="#tutorial-import-trajectory">Importing a trajectory</a>.
-        - <a href="#tutorial-stream-trajectory">Stream a trajectory from the MDsrv</a>.
+    1. Import the structures and trajectories you want to share.    
+        See Tutorials:
+        - <a href="#tutorial-import-structure">Importing a structure</a>
+        - <a href="#tutorial-import-trajectory">Importing a trajectory</a>
+        - <a href="#tutorial-stream-trajectory">Stream a trajectory from the MDsrv</a>
     2. Prepare your session as desired.
     3. Open the _Remote Session_ menu in the _Extensions_ panel at the bottom.
     4. Name your session.
