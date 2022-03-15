@@ -384,3 +384,5 @@ For further details on possible customization options, please refert to the [doc
 </div></p></details>
 
 </div>
+
+If you have any further questions, please send an e-mail to: kampfrath@informatik.uni-leipzig.de 
