@@ -6,46 +6,51 @@ title: MDsrv
 
 <div class='faq'>
 
-<a name='t-import'></a>
+<a name='faq-import'></a>
 <details>
     <summary>How can I import a structure or trajectory?</summary>
 <p><div markdown="1">
-You can find a detailed description on how to import structures and trajectories, inluding a video, in the tutorial section under <a href="tutorial.html#t-import">Importing structures and trajectories</a>.
+You can find a detailed description on how to import structures and trajectories, inluding a video, in the tutorial section under 
+- <a href="tutorial.html#tutorial-import-structure">Importing a structure</a>
+- <a href="tutorial.html#tutorial-import-trajectory">Importing a trajectory</a>.
 </div></p></details>
 
 <details>
     <summary>Can I upload both my own and public data?</summary>
 <p><div markdown="1">
-Yes, you can upload your own and public data. Check out the tutorial on <a href="tutorial.html#t-import">Importing structures and trajectories</a>.
+Yes, you can upload your own and public data. Check out the tutorial on
+- <a href="tutorial.html#tutorial-import-structure">Importing a structure</a>
+- <a href="tutorial.html#tutorial-import-trajectory">Importing a trajectory</a>.
 </div></p></details>
 
 <details>
     <summary>How to import data from other public servers (such as the Protein Data Bank)?</summary>
 <p><div markdown="1">
-It is possible to directly import data from public data bases like the PDB. Just follow the tutorial on <a href="tutorial.html#t-import">Importing structures and trajectories</a>.
+It is possible to directly import data from public data bases like the PDB. Just follow the tutorial on <a href="tutorial.html#tutorial-import-structure">Importing a structure</a>.
 </div></p></details>
 
 <details>
     <summary>I imported my trajectory file, but nothing is showing. Why?</summary>
 <p><div markdown="1">
-When you upload a file with the coordinates for a trajectory, for example a _.xtc_ file, you must also import a structure to which you can match the coordinates. Otherwise, you will not see a representation of your data. 
-You can find a detailes description on how to assign a trajectory to a structure, including a video, in the tutorial section under <a href="tutorial.html#t-assign-traj">Assign a trajectory to a structure</a>.
+Is is not possible to visualize your coordinate file if you imported it via the _Open Local Files_ or _Open Remote File_ menu.
+
+You will need to import your trajectory using the _Load Trajectory_ Menu in the _Home_ panel on the left side. Just follow the tutorial on <a href="tutorial.html#tutorial-import-trajectory">Importing a trajectory</a>.
 </div></p></details>
 
 <details>
-    <summary>How can I assign a trajectory to a structure?</summary>
+    <summary>How can I assign a coordinate file to a structure?</summary>
 <p><div markdown="1">
-You can find a detailes description on how to assign a trajectory to a structure, including a video, in the tutorial section under <a href="tutorial.html#t-assign-traj">Assign a trajectory to a structure</a>.
+You will need to import your trajectory using the _Load Trajectory_ Menu in the _Home_ panel on the left side. Just follow the tutorial on <a href="tutorial.html#tutorial-import-trajectory">Importing a trajectory</a>.
 </div></p></details>
 
 <details>
     <summary>Why do I not see a structure or trajectory?</summary>
 <p><div markdown="1">
-If you do not see a structure after you imported , there may have been an error during the importing process. Check the _Log_ at the bottom to identify possible errors.
+If you do not see a structure or trajectory after you imported it, there may have been an error during the importing process. Check the _Log_ at the bottom to identify possible errors.
 
-If you imported a coordinate file of a trajectory, you must also import a structure you can match the coordinates to. Follow the steps in the tutorial on <a href="tutorial.html#t-assign-traj">Assign a trajectory to a structure</a>.
+If you imported a coordinate file of a trajectory, it will not be possible to visualize it. You need to use the _Load Trajectory_ menu to vizualize your trajectory. Follow the steps in the tutorial on <a href="tutorial.html#tutorial-import-trajectory">Importing a trajectory</a>.
 
-If your structure was visible before and now it is not, you may need to check the _State Tree_ to see if your structure is still available. If you can find your structure, check the _visibility toggle_ (eye icon) and turn it on if necessary. If your structure is no longer available, you will need to import it again.
+If your structure or trajectory was visible before and now it is not, you may need to check the _State Tree_ to see if your structure or trajectory is still available. If you can find your structure or trajectory, check the _visibility toggle_ (eye icon) and turn it on if necessary. If your structure or trajectory is no longer available, you will need to import it again.
 </div></p></details>
 
 <a name='faq-vis-traj'></a>
@@ -53,15 +58,15 @@ If your structure was visible before and now it is not, you may need to check th
     <summary>How can I visualize my trajectory?</summary>
 <p><div markdown="1">
 To visualize your trajectory follow the steps in the tutorials:
-- <a href="tutorial.html#t-import">Importing structures and trajectories</a>
-- <a href="tutorial.html#t-assign-traj">Assign a trajectory to a structure</a>
-- <a href="tutorial.html#t-play">Play trajectory</a>
+- <a href="tutorial.html#tutorial-import-trajectory">Importing a trajectory</a>
+- <a href="tutorial.html#tutorial-stream-trajectory">Stream a trajectory from the MDsrv</a>
+- <a href="tutorial.html#tutorial-play-trajectory">Play trajectory</a>
 </div></p></details>
 
 <details>
     <summary>How do I play my trajectory?</summary>
 <p><div markdown="1">
-You can find a detailed description on how to play a trajectory, inluding a video, in the tutorial section under <a href="tutorial.html#t-play">Play trajectory</a>.
+You can find a detailed description on how to play a trajectory, inluding a video, in the tutorial section under <a href="tutorial.html#tutorial-play-trajectory">Play trajectory</a>.
 </div></p></details>
 
 <details>
@@ -80,16 +85,17 @@ Yes you can. After importing and assigning you trajectory, the _Select Animation
 <details>
     <summary>Why is only part of my trajectory moving? Why is there an overlapping?</summary>
 <p><div markdown="1">
-After you have assigned your trajectory to your structure, you have not cleaned up the visualization. Currently, both the models of your static structure and your moving trajectory are displayed. To clean up your visualization, open the _State Tree_ on the left and turn off the visibility for your static structure to which you assigned the coordinates of your trajectory.
+You propbably imported your trajectory via the _Match Trajectory Stream_ menu to stream your trajectory from the MDsrv. The overlapping occurs, because the static structure is still visible. You need to clean up your visualization. Open the _State Tree_ on the left and turn off the visibility for your static structure to which you assigned the trajectory stream.
 
-For a more detailed description on how to clean up the visulation, you can check out the tutorial on <a href="tutorial.html#t-assign-traj">Assign a trajectory to a structure</a>.
+For a more detailed description on how to clean up the visulation after you assigned a trajectory for streaming to a structure, you can check out the tutorial on <a href="tutorial.html#tutorial-stream-trajectory">Stream a trajectory from the MDsrv</a>.
+You can also look at the FAQ: <a href="tutorial.html#faq-visibility">How do I change the visibility of a structure, trajectory or other component?</a>.
 </div></p></details>
 
 <a name='faq-share-session'></a>
 <details>
     <summary>How can I share the session I have prepared?</summary>
 <p><div markdown="1">
-You can share your session in two ways. A detailed description on how to share a session, inluding a video, can be found in the tutorial section under <a href="tutorial.html#t-share-session">Sharing a session</a>.
+You can share your session in two ways. A detailed description on how to share a session, inluding a video, can be found in the tutorial section under <a href="tutorial.html#tutorial-share-session">Sharing a session</a>.
 </div></p></details>
 
 <details>
@@ -97,7 +103,15 @@ You can share your session in two ways. A detailed description on how to share a
 <p><div markdown="1">
 After you saved your session to the MDsrv, you have to right-click on your session in the session list. A new tab will open with the URL you want to share.
 
-For a more detailed description on how to save a session to the MDsrv and obtain the URL for sharing your session, you can check out the tutorial on <a href="tutorial.html#t-share-session">Sharing a session</a>.
+For a more detailed description on how to save a session to the MDsrv and obtain the URL for sharing your session, you can check out the tutorial on <a href="tutorial.html#tutorial-share-session">Sharing a session</a>.
+</div></p></details>
+
+<a name='faq-visilibity'></a>
+<details>
+    <summary>How do I change the visibility of a structure, trajectory or other component?</summary>
+<p><div markdown="1">
+Each component in the _State Tree_ in the left panel has a visibility toggle. By selecting this button, you can turn on or off he visibility for this component.
+<center><img src='images/visibility.png'></center>
 </div></p></details>
 
 <details>
@@ -109,15 +123,15 @@ No, you can use our server to visualize and share your trajectories. You can fin
 <details>
     <summary>How can I share my trajectory?</summary>
 <p><div markdown="1">
-You can share your trajectory by sharing your session. Check out the Tutorial <a href="tutorial.html#t-share-session">Sharing a session</a>.
+You can share your trajectory by sharing your session. Check out the Tutorial <a href="tutorial.html#tutorial-share-session">Sharing a session</a>.
 </div></p></details>
 
 <details>
     <summary>How to upload local data (from my computer) to a running server?</summary>
 <p><div markdown="1">
-To upload the data you have locally stored on your computer you first have to import the data into the client and prepare a session to your desires. Then you can store this session on a running server by following the steps in the tutorial on <a href="tutorial.html#t-share-session">Sharing a session</a>.
+To upload the data you have locally stored on your computer you first have to import the data into the client and prepare a session to your desires. Then you can store this session on a running server by following the steps in the tutorial on <a href="tutorial.html#tutorial-share-session">Sharing a session</a>.
 
-If you want to upload a trajectory to the MDsrv, because it is too large to vizualize without the client crashing, you can upload the trajectory to the MDsrv by following the steps in the tutorial <a href="tutorial.html#t-upload-traj">Upload a trajectory to the MDsrv</a>.
+If you want to upload a trajectory to the MDsrv, because it is too large to vizualize without the client crashing, you can upload the trajectory to the MDsrv by following the steps in the tutorial <a href="tutorial.html#tutorial-upload-trajectory">Upload a trajectory to the MDsrv</a>.
 </div></p></details>
 
 <details>
@@ -129,13 +143,14 @@ Check out the FAQ: <a href="#faq-share-session">How can I share the session I ha
 <details>
     <summary>How long are remote sessions available that I upload to the server?</summary>
 <p><div markdown="1">
-
+After a session is uploaded to the MDsrv, any user can delete the session by selecting the _Bin_ button on the right side of the session in the _Remote Session_ menu. 
+Currently, there is no time limit on how long your session will be available on our MDsrv as long as it is not deleted by another user. This may change in the future.
 </div></p></details>
 
 <details>
     <summary>How can I upload my trajectory to MDsrv?</summary>
 <p><div markdown="1">
-You can upload a trajectory to the MDsrv for streaming. Note that the trajectory must be publicly available on a server. Follow the steps in the tutorial <a href="tutorial.html#t-upload-traj">Upload a trajectory to the MDsrv</a>.
+You can upload a trajectory to the MDsrv for streaming. Note that the trajectory must be publicly available on a server. Follow the steps in the tutorial <a href="tutorial.html#tutorial-upload-trajectory">Upload a trajectory to the MDsrv</a>.
 </div></p></details>
 
 <details>
@@ -145,21 +160,21 @@ To visualize and share large trajectories, you either need to set up your own se
 
 To set up your own MDsrv, check out the <a href="install.html">Install</a> page.
 
-To upload the trajectory to our server, check out the tutorial <a href="tutorial.html#t-upload-traj">Upload a trajectory to the MDsrv</a>.
+To upload the trajectory to our server, check out the tutorial <a href="tutorial.html#tutorial-upload-trajectory">Upload a trajectory to the MDsrv</a>.
 </div></p></details>
 
 <details>
     <summary>How do I stream a trajectory from the MDsrv?</summary>
 <p><div markdown="1">
-You can find a detailed description on how to stream a trajectory from the MDsrv, inluding a video, in the tutorial section under <a href="tutorial.html#t-stream-traj">Stream a trajectory from the MDsrv</a>.
+You can find a detailed description on how to stream a trajectory from the MDsrv, inluding a video, in the tutorial section under <a href="tutorial.html#tutorial-stream-trajectory">Stream a trajectory from the MDsrv</a>.
 </div></p></details>
 
 <details>
     <summary>How can I visualize trajectories that are stored on another server that is not an MDsrv?</summary>
 <p><div markdown="1">
-You can download the trajectory to your computer and follow the steps on <a href="#faq-vis-traj">how to visualize your trajectory</a>.
+You can import this trajectory using its URL. Follow the steps in the tutorial on <a href="tutorial.html#tutorial-import-trajectory">Importing a trajectory</a>.
 
-If the trajectory is too large to vizualize it this way, you can upload it to our MDsrv by follow the steps in the tutorial <a href="tutorial.html#t-upload-traj">Upload a trajectory to the MDsrv</a>.
+If the trajectory is too large to vizualize it this way, you can upload it to our MDsrv by follow the steps in the tutorial <a href="tutorial.html#tutorial-upload-trajectory">Upload a trajectory to the MDsrv</a>.
 
 You can also set up your own MDsrv to stream the trajectory. Check out the <a href="install.html">Installation</a> page.
 </div></p></details>
@@ -169,56 +184,60 @@ You can also set up your own MDsrv to stream the trajectory. Check out the <a hr
 <p><div markdown="1">
 Import the Clustal file (_.aln_) using the _Open Local Files_ menu in the _Home_ panel on the left-hand side. 
 
-To match the alignemnt to structures, check out the tutorial on <a href="tutorial.html#t-alignment">Superpose structures based on a sequence alignment</a>.
+To match the alignemnt to structures, check out the tutorial on <a href="tutorial.html#tutorial-alignment">Superpose structures based on a sequence alignment</a>.
 </div></p></details>
 
 <details>
     <summary>How can I add a sequence alignment</summary>
 <p><div markdown="1">
-You can find a detailed description on how to add a sequence alinment, inluding a video, in the tutorial section under <a href="tutorial.html#t-alignment">Superpose structures based on a sequence alignment</a>.
+You can find a detailed description on how to add a sequence alinment, inluding a video, in the tutorial section under <a href="tutorial.html#tutorial-alignment">Superpose structures based on a sequence alignment</a>.
 </div></p></details>
 
 <details>
     <summary>How to align two or more structures based on an already calculated alignment?</summary>
 <p><div markdown="1">
-You can find a detailed description on how to align two or more structures based on an already calculated alignment, inluding a video, in the tutorial section under <a href="tutorial.html#t-alignment">Superpose structures based on a sequence alignment</a>.
+You can find a detailed description on how to align two or more structures based on an already calculated alignment, inluding a video, in the tutorial section under <a href="tutorial.html#tutorial-alignment">Superpose structures based on a sequence alignment</a>.
 </div></p></details>
 
 <details>
     <summary>How do I add a measurement?</summary>
 <p><div markdown="1">
-You can find a detailed description on how to add a measurement, inluding a video, in the tutorial section under <a href="tutorial.html#t-plot">Add a time-trace plot of a measurement for a trajectory</a>. The first part of the tutorial describes how a measurement is added. 
+You can find a detailed description on how to add a measurement, inluding a video, in the tutorial section under <a href="tutorial.html#tutorial-measurement">Add a time-trace plot of a measurement for a trajectory</a>. The first part of the tutorial describes how a measurement is added. 
 </div></p></details>
 
 <details>
     <summary>How can I add a measurement to my trajectory?</summary>
 <p><div markdown="1">
-You can find a detailed description on how to add a measurement to a trajectory, inluding a video, in the tutorial section under <a href="tutorial.html#t-plot">Superpose structures based on a sequence alignment</a>. The first part covers the adding of a measurement to the trajectory.
+You can find a detailed description on how to add a measurement to a trajectory, inluding a video, in the tutorial section under <a href="tutorial.html#tutorial-measurement">Superpose structures based on a sequence alignment</a>. The first part covers the adding of a measurement to the trajectory.
 </div></p></details>
 
 <a name='faq_measurement_fix'></a>
 <details>
     <summary>I added a measurement to my trajectory, but it is not updating when I change the frame?</summary>
 <p><div markdown="1">
-If you imported and assigned the trajectory correctly, you may not have cleaned up your visualization and added the measurement to your static structure to which you assigned the coordinates of your trajectory. 
+If you imported your trajectory via the _Load Trajectory_ menu, this should not happen.
+
+If you imported your trajectory correctly using the _Match Trajectory Stream_ feature, you may not have cleaned up your visualization and added the measurement to your static structure to which you assigned the trajectory stream.
 
 If you have cleaned up the visualization and this still occurs, you probably selected the structures for your measurement using the _Sequence View_ at the top. Even if you have cleaned up the visualization, the _Sequence View_ still contains all the sequences from the static structure, and you probably added the measurement to it. To change the sequences in the _Sequence View_ to your trajectory, select the drop-down menu to the right of _Sequence of_. The tricky part is that they both have the same name. Once you have selected your trajectory in the _Sequence View_, make sure that the visibility of your static structure is turned off. Then hover over the sequence in the _Sequence View_ and check to see if the corresponding residues are highlighted in the displayed trajectory. If so, then the sequences in the _Sequence View_ are from your trajectory. Now you can add the measurement again.
 
-<center>
+<!-- <center>
     <figure class='video_container'>
         <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/measurement_fix.png'>
             <source src='./videos/measurement_fix.mp4' type='video/mp4'>
         </video>
     </figure>
-</center>
+</center> -->
 </div></p></details>
 
 <details>
     <summary>I added a measurement to my trajectory, but there is no time-trace plot available?</summary>
 <p><div markdown="1">
-If you imported and assigned the trajectory correctly, you may not have cleaned up your visualization and added the measurement to your static structure to which you assigned the coordinates of your trajectory. 
+If you imported your trajectory via the _Load Trajectory_ menu, this should not happen.
 
-To fix your problem, check out the steps or the video in FAQ: <a href="#faq_measurement_fix">I added a measurement to my trajectory, but it is not updating when I change the frame?</a>
+If you imported your trajectory correctly using the _Match Trajectory Stream_ menu, you may not have cleaned up your visualization and added the measurement to your static structure to which you assigned the trajectory stream to.
+
+To fix your problem, check out the steps in FAQ: <a href="#faq_measurement_fix">I added a measurement to my trajectory, but it is not updating when I change the frame?</a>
 </div></p></details>
 
 <details>
