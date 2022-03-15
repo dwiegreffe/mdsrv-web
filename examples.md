@@ -2,7 +2,7 @@
 title: MDsrv
 ---
 
-## Examples
+# Examples
 
 ### Streaming trajectories from our MDsrv:
 
@@ -14,7 +14,7 @@ In the following examples, the trajectories are stored on our server. During the
 
 - <a href="https://proteininformatics.informatik.uni-leipzig.de/?session-url=https%3A%2F%2Fremote.sca-ds.de%2Fget%2Fsession%2Ff010cb1f-44ed-4938-8e56-610936224006" target="_blank">Trajectory Streaming 3 - Large Trajectory</a>
 
-### RMSD plot 
+### Time-trace and RMSD plot 
 
 To view the line plot of the example, you need to open the _Extension_ panel at the bottom and then go to the _Time Trace Graph_ menu. In the lower left corner of the white canvas you can see the progress of the measurement calculation. When the calculation is complete, the measurement is available in the _Time Trace Plot_ menu. You can switch to the RMSD plot for the entire structure by selecting the _RMSD_ button in the _Time Trace Plot_ menu while the desired measurement is selected.
 
