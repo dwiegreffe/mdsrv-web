@@ -112,8 +112,8 @@ You can import a trajectory by:
 <p><div markdown="1">
 
 You first need to import your trajectory:
-- (<a href="#tutorial-import-trajectory">Importing a trajectory</a>) or
-- (<a href="#tutorial-stream-trajectory">Stream a trajectory from the MDsrv</a>)
+- <a href="#tutorial-import-trajectory">Importing a trajectory</a> or
+- <a href="#tutorial-stream-trajectory">Stream a trajectory from the MDsrv</a>
 
 After you imported your trajectory, a play button will appear in the top left corner of the white canvas where the structure is displayed.
 
@@ -184,7 +184,7 @@ The trajectory you want to store on our server must be publicly available on ano
 6. Add a more detailed description for your trajectory.
 7. Select the _Upload Trajectory to Server_ button.
 8. When the trajectory is successfully uploaded, a message appears in the Log panel.
-9. To visualize the uploaded trajectory, see the Tutorial <a href="#t-stream-traj">Stream a trajectory from the MDsrv</a>).
+9. To visualize the uploaded trajectory, see the Tutorial <a href="#tutorial-stream-trajectory">Stream a trajectory from the MDsrv</a>.
 
 Currently, only trajectories in the XTC format can be uploaded.
 
@@ -206,7 +206,7 @@ Currently, only trajectories in the XTC format can be uploaded.
 1. Open the _Extensions_ panel at the bottom.
 2. Open the _Match Trajectory Stream_ menu.
 3. Enter the _Server_ URL where the trajectory is stored (Must be an MDsrv instance).
-4. Import the structure corresponding to the trajectory (see Tutorial <a href="#t-import">Importing structures and trajectories</a>).
+4. Import the structure corresponding to the trajectory (see Tutorial <a href="#tutorial-import-structure">Importing a structure</a>).
 5. Select this structure via the _Model_ parameter.
 6. Select the trajectory you want to stream via the _Trajectory_ parameter.
 7. Select _Add Stream Trajectory_.
