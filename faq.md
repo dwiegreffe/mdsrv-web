@@ -369,4 +369,17 @@ You can open the left, _Extensions_, and _Strucure Tools_ panels by clicking on 
 
 </div></p></details>
 
+<details>
+    <summary>What options are available to customize a session?</summary>
+<p><div markdown="1">
+There are several ways you can customize your session:
+- Translation and Rotation of structures/trajectories/components
+- Adding measurements 
+- Coloring structures/trajectories/components
+- Turning off the visibility for structures/trajectories/components
+- Showing only parts of structures/trajectories/components
+
+For further details on possible customization options, please refert to the dokumentation of Mol*: https://molstar.org/viewer-docs/
+</div></p></details>
+
 </div>
