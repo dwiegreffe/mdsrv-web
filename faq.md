@@ -10,17 +10,18 @@ title: MDsrv
 <details>
     <summary>How can I import a structure or trajectory?</summary>
 <p><div markdown="1">
-You can find a detailed description on how to import structures and trajectories, inluding a video, in the tutorial section under 
+You can find a detailed description on how to import structures and trajectories, inluding a video, in the tutorial section under:
 - <a href="tutorial.html#tutorial-import-structure">Importing a structure</a>
-- <a href="tutorial.html#tutorial-import-trajectory">Importing a trajectory</a>.
+- <a href="tutorial.html#tutorial-import-trajectory">Importing a trajectory</a>
 </div></p></details>
 
 <details>
     <summary>Can I upload both my own and public data?</summary>
 <p><div markdown="1">
-Yes, you can upload your own and public data. Check out the tutorial on
+Yes, you can upload your own and public data. 
+Check out the tutorials on:
 - <a href="tutorial.html#tutorial-import-structure">Importing a structure</a>
-- <a href="tutorial.html#tutorial-import-trajectory">Importing a trajectory</a>.
+- <a href="tutorial.html#tutorial-import-trajectory">Importing a trajectory</a>
 </div></p></details>
 
 <details>
@@ -32,7 +33,7 @@ It is possible to directly import data from public data bases like the PDB. Just
 <details>
     <summary>I imported my trajectory file, but nothing is showing. Why?</summary>
 <p><div markdown="1">
-Is is not possible to visualize your coordinate file if you imported it via the _Open Local Files_ or _Open Remote File_ menu.
+It is not possible to visualize your coordinate file if you imported it via the _Open Local Files_ or _Open Remote File_ menu.
 
 You will need to import your trajectory using the _Load Trajectory_ Menu in the _Home_ panel on the left side. Just follow the tutorial on <a href="tutorial.html#tutorial-import-trajectory">Importing a trajectory</a>.
 </div></p></details>
@@ -78,7 +79,7 @@ Yes you can. After importing and assigning you trajectory, the _Select Animation
 <center><img src='images/animation_mode_1.png'></center>
 
 1. Select the button to open an additional menu for changing the plan mode of the trajectory.
-<center><img src='images/animation_mode_2.png'></center>
+    <center><img src='images/animation_mode_2.png'></center>
 2. Select _Start_ to play the trajectory.
 </div></p></details>
 
@@ -88,7 +89,7 @@ Yes you can. After importing and assigning you trajectory, the _Select Animation
 You propbably imported your trajectory via the _Match Trajectory Stream_ menu to stream your trajectory from the MDsrv. The overlapping occurs, because the static structure is still visible. You need to clean up your visualization. Open the _State Tree_ on the left and turn off the visibility for your static structure to which you assigned the trajectory stream.
 
 For a more detailed description on how to clean up the visulation after you assigned a trajectory for streaming to a structure, you can check out the tutorial on <a href="tutorial.html#tutorial-stream-trajectory">Stream a trajectory from the MDsrv</a>.
-You can also look at the FAQ: <a href="tutorial.html#faq-visibility">How do I change the visibility of a structure, trajectory or other component?</a>.
+You can also look at the FAQ: <a href="#faq-visibility">How do I change the visibility of a structure, trajectory or other component?</a>.
 </div></p></details>
 
 <a name='faq-share-session'></a>
@@ -208,7 +209,7 @@ You can find a detailed description on how to add a measurement, inluding a vide
 <details>
     <summary>How can I add a measurement to my trajectory?</summary>
 <p><div markdown="1">
-You can find a detailed description on how to add a measurement to a trajectory, inluding a video, in the tutorial section under <a href="tutorial.html#tutorial-measurement">Superpose structures based on a sequence alignment</a>. The first part covers the adding of a measurement to the trajectory.
+You can find a detailed description on how to add a measurement to a trajectory, inluding a video, in the tutorial section under <a href="tutorial.html#tutorial-measurement">Add a time-trace plot of a measurement for a trajectory</a>. The first part covers the adding of a measurement to the trajectory.
 </div></p></details>
 
 <a name='faq_measurement_fix'></a>
@@ -270,29 +271,29 @@ You can descide between changing the color of a whole component or just a select
 - To change the color of a whole component:
     1. Open the _Components_ menu in the _Structure Tools_ panel on the right side. 
     2. There you will find a list of all components in the scene. 
-    <center><img src='images/components_coloring_1.png'></center>
+        <center><img src='images/components_coloring_1.png'></center>
     3. Select the _Options_ button for the component you want to color (button with three dots). A submenu will appear. 
-    <center><img src='images/components_coloring_2.png'></center>
-    <center><img src='images/components_coloring_3.png'></center>
+        <center><img src='images/components_coloring_2.png'></center>
+        <center><img src='images/components_coloring_3.png'></center>
     4. Select _Set Coloring_ and choose the coloring of your liking. 
-    <center><img src='images/components_coloring_4.png'></center>
+        <center><img src='images/components_coloring_4.png'></center>
 
 - If you only want to change the color of a single part of one Model:
     1. Open the _State Tree_ panel on the left side.
     2. Find the representation you want to change the coloring for. 
-    <center><img src='images/state_tree_coloring_1.png'></center>
+        <center><img src='images/state_tree_coloring_1.png'></center>
     3. Select the repesentation. A sub menu will appear under it. 
     4. Select _Update 3D Representation_ to open another sub menu. 
-    <center><img src='images/state_tree_coloring_2.png'></center>
+        <center><img src='images/state_tree_coloring_2.png'></center>
     5. Now you can choose the coloring of your liking. 
-    <center><img src='images/state_tree_coloring_3.png'></center>
+        <center><img src='images/state_tree_coloring_3.png'></center>
 
 - It is also possible to change the color of a selection you made:
     1. Select the _Toggle Selection Mode_ button. 
-    <center><img src='images/toggle_selection_mode.png'></center>
+        <center><img src='images/toggle_selection_mode.png'></center>
     2. Select the part of your structure you want to color.
     3. Select the _Apply Theme to Selection_ button. 
-    <center><img src='images/apply_theme_to_selection.png'></center>
+        <center><img src='images/apply_theme_to_selection.png'></center>
     4. Choose a color of your liking.
     5. Select the _Apply theme_ button. 
 </div></p></details>
