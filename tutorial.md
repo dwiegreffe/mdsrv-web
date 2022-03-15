@@ -258,7 +258,7 @@ Currently, only trajectories in the XTC format can be uploaded.
 
 1. Import the trajectory you want to calculate the measurement for.
     See Tutorials
-    - <a href="#tutorial-import-trajectory">Importing a structure</a>.
+    - <a href="#tutorial-import-trajectory">Importing a trajectory</a>.
     - <a href="#tutorial-stream-trajectory">Stream a trajectory from the MDsrv</a>.
 2. If needed, clean up the visualization by toggling the visibility for the importet files in the _State Tree_ panel on the left side.
 3. Open the _Structure Tools_ panel on the right side.
