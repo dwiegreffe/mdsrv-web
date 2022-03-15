@@ -112,8 +112,8 @@ You can import a trajectory by:
 <p><div markdown="1">
 
 You first need to import your trajectory:
-- (<a href="#tutorial-import-trajectory">Importing a trajectory.</a>) or
-- (<a href="#tutorial-stream-trajectory">Stream a trajectory from the MDsrv</a>).
+- (<a href="#tutorial-import-trajectory">Importing a trajectory</a>) or
+- (<a href="#tutorial-stream-trajectory">Stream a trajectory from the MDsrv</a>)
 
 After you imported your trajectory, a play button will appear in the top left corner of the white canvas where the structure is displayed.
 
@@ -144,6 +144,7 @@ You can share your your in two ways:
 
 - Through our server:
     1. Import the structures and trajectories you want to share
+    
         See Tutorials
         - <a href="#tutorial-import-structure">Importing a structure</a>.
         - <a href="#tutorial-import-trajectory">Importing a trajectory</a>.
