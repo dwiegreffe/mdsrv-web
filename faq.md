@@ -380,7 +380,7 @@ There are several ways you can customize your session:
 - Turning off the visibility for structures/trajectories/components
 - Showing only parts of structures/trajectories/components
 
-For further details on possible customization options, please refert to the dokumentation of Mol*: https://molstar.org/viewer-docs/
+For further details on possible customization options, please refert to the [documentation of Mol*](https://molstar.org/viewer-docs/).
 </div></p></details>
 
 </div>
