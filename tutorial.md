@@ -4,12 +4,12 @@ title: MDsrv
 
 # Tutorials
 
-<a name='t-import'></a>
+<a name='tutorial-import-structure'></a>
 <details>
-    <summary>Importing structures and trajectories</summary>
+    <summary>Importing a structure</summary>
 <p><div markdown="1">
 
-You can import a structure or trajectory by:
+You can import a structure by:
 - providing the files from your local machine
     1. Open the _Home_ panel on the left-hand side.
     2. Open the _Open Local Files_ menu in the Home panel.
@@ -21,8 +21,8 @@ You can import a structure or trajectory by:
 
 <center>
     <figure class='video_container'>
-        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/import_local_files.png'>
-            <source src='./videos/import_local_files.mp4' type='video/mp4'>
+        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/import_structure_local.png'>
+            <source src='./videos/import_structure_local.mp4' type='video/mp4'>
         </video>
     </figure>
 </center>
@@ -30,7 +30,7 @@ You can import a structure or trajectory by:
 - using one of the common public servers (like PDB)
     1. Open the _Home_ panel on the left-hand side.
     2. Open the _Open Remote Structure_ menu in the Home panel.
-    3. Select the server you want to download the structure or trajectory from as the _Source_.
+    3. Select the server you want to download the structure from as the _Source_.
     4. Enter the ID of the structure or trajectory you want to import from the selected server.
     5. Select the _Apply_ button.
 
@@ -42,7 +42,7 @@ You can import a structure or trajectory by:
     </figure>
 </center>
 
-- using the URL of a structure or trajectory file that is publicly available on another server:
+- using the URL of a structure file that is publicly available on another server:
     1. Open the _Home_ panel on the left-hand side.
     2. Open the _Open Remote File_ menu in the Home panel.
     3. Enter the _URL_ of the file.
@@ -52,53 +52,74 @@ You can import a structure or trajectory by:
     
 <center>
     <figure class='video_container'>
-        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/import_via_url.png'>
-            <source src='./videos/import_via_url.mp4' type='video/mp4'>
+        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/import_structure_url.png'>
+            <source src='./videos/import_structure_url.mp4' type='video/mp4'>
         </video>
     </figure>
 </center>
 
-**Note**: When you import a trajectory file, like an xtc, you must also import a structure to which the trajectory can be matched. Otherwise you will not be able to play the trajectory. To match the trajectory to a structure, see FAQ: How can I assign a trajectory to a structure?
-
 </div></p></details>
 
-<a name='t-assign-traj'></a>
+<a name='tutorial-import-trajectory'></a>
 <details>
-    <summary>Assign a trajectory to a structure</summary>
+    <summary>Importing a trajectory</summary>
 <p><div markdown="1">
 
-To match a trajectory to a structure, you must first import both (<a href="#t-import">Importing structures and trajectories</a>).
-1. Open the _Home_ panel on the left-hand side.
-2. Open the _Assign Trajectory_ menu in the Home panel.
-3. Select the structure and trajectory you want to match:
-    - _Model_: the structure to which the trajectory should be matched
-    - _Coordinates_: the trajectory you want to match to the structure
-4. Select the _Apply_ button.
+You can import a trajectory by:
+
+- providing the files from your local machine
+    1. Open the _Home_ panel on the left-hand side.
+    2. Open the _Load Trajectory_ menu in the Home panel.
+    3. Select _File_ as the _Source_ parameter.
+    4. Select _Selec a file..._ for 
+        - _Model_: The file containing the structure (e.g. a .pdb).
+        - _Coordinates_: A file containing the coordinates of the trajectory you want to match to the structure.
+    5. After selecing the two files, select _Apply_ to import the trajectory.
 
 <center>
     <figure class='video_container'>
-        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/assign_trajectory_to_structure.png'>
-            <source src='./videos/assign_trajectory_to_structure.mp4' type='video/mp4'>
+        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/import_trajectory_local.png'>
+            <source src='./videos/import_trajectory_local.mp4' type='video/mp4'>
+        </video>
+    </figure>
+</center>
+
+-  using the URL of a structure and coordinate file that are publicly available on another server: 
+    1. Open the _Home_ panel on the left-hand side.
+    2. Open the _Load Trajectory_ menu in the Home panel.
+    3. Select URL as the _Source_ parameter.
+    4. Select _Selec a file..._ for 
+        - _Model_: The URL pointing to the file of the structure.
+        - _Coordinates_: The URL pointing to the file of the coordinates of the trajectory you want to match to the structure.
+    5. Specify the format for each file in the _Format_ parameter underneath it.
+    6. Specify, if the _Model_ file is _Binary_.
+    7. After selecing the two files and setting their parameters, select _Apply_ to import the trajectory.
+
+<center>
+    <figure class='video_container'>
+        <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/import_trajectory_url.png'>
+            <source src='./videos/import_trajectory_url.mp4' type='video/mp4'>
         </video>
     </figure>
 </center>
 
 </div></p></details>
 
-<a name='t-play'></a>
+<a name='tutorial-play-trajectory'></a>
 <details>
     <summary>Play trajectory</summary>
 
 <p><div markdown="1">
 
-You first need to import your trajectory (<a href="#t-import">Importing structures and trajectories</a>).
+You first need to import your trajectory:
+- (<a href="#tutorial-import-trajectory">Importing a trajectory.</a>) or
+- (<a href="#tutorial-stream-trajectory">Stream a trajectory from the MDsrv</a>).
+
 After you imported your trajectory, a play button will appear in the top left corner of the white canvas where the structure is displayed.
 
-In case you provided the coordinate file of the trajectory yourself, you must first match it with a structure (<a href="#t-assign-traj">Assign a trajectory to a structure</a>).
-
-After matching the trajectory, you need to clean up the visualization:
+When you imported your trajectory by streaming it from the MDsrv, you need to clean up the visualization:
 1. Open the _State Tree_ panel on the left-hand side.
-2. Toggle the visibility for the two imported files (same name as the original files).
+2. Toggle the visibility for the imported structure (same name as the original file).
     - The visibility toggle is the outermost button on the right side and has an eye symbol.
 
 Now only the matched result is visible in the representation.
@@ -113,7 +134,7 @@ Now only the matched result is visible in the representation.
 
 </div></p></details>
 
-<a name='t-share-session'></a>
+<a name='tutorial-share-session'></a>
 <details>
     <summary>Sharing a session</summary>
 
@@ -124,8 +145,9 @@ You can share your your in two ways:
 - Through our server:
     1. Import the structures and trajectories you want to share
         See Tutorials
-        - <a href="#t-import">Importing structures and trajectories</a>
-        - <a href="#t-assign-traj">Assign a trajectory to a structure</a>
+        - <a href="#tutorial-import-structure">Importing a structure</a>.
+        - <a href="#tutorial-import-trajectory">Importing a trajectory</a>.
+        - <a href="#tutorial-stream-trajectory">Stream a trajectory from the MDsrv</a>.
     2. Prepare your session as desired.
     3. Open the _Remote Session_ menu in the _Extensions_ panel at the bottom.
     4. Name your session.
@@ -147,7 +169,7 @@ You can share your your in two ways:
 
 </div></p></details>
 
-<a name='t-upload-traj'></a>
+<a name='tutorial-upload-trajectory'></a>
 <details>
     <summary>Upload a trajectory to the MDsrv</summary>
 <p><div markdown="1">
@@ -176,7 +198,7 @@ Currently, only trajectories in the XTC format can be uploaded.
 
 </div></p></details>
 
-<a name='t-stream-traj'></a>
+<a name='tutorial-stream-trajectory'></a>
 <details>
     <summary>Stream a trajectory from the MDsrv</summary>
 <p><div markdown="1">
@@ -200,7 +222,7 @@ Currently, only trajectories in the XTC format can be uploaded.
 
 </div></p></details>
 
-<a name='t-alignment'></a>
+<a name='tutorial-alignment'></a>
 <details>
     <summary>Superpose structures based on a sequence alignment</summary>
 <p><div markdown="1">
@@ -229,16 +251,16 @@ Currently, only trajectories in the XTC format can be uploaded.
 
 </div></p></details>
 
-<a name='t-plot'></a>
+<a name='tutorial-measurement'></a>
 <details>
     <summary>Add a time-trace plot of a measurement for a trajectory</summary>
 <p><div markdown="1">
 
 1. Import the trajectory you want to calculate the measurement for.
     See Tutorials
-    - <a href="#t-import">Importing structures and trajectories</a>
-    - <a href="#t-assign-traj">Assign a trajectory to a structure</a>
-2. Clean up the visualization by toggling the visibility for the importet files in the _State Tree_ panel on the left side.
+    - <a href="#tutorial-import-trajectory">Importing a structure</a>.
+    - <a href="#tutorial-stream-trajectory">Stream a trajectory from the MDsrv</a>.
+2. If needed, clean up the visualization by toggling the visibility for the importet files in the _State Tree_ panel on the left side.
 3. Open the _Structure Tools_ panel on the right side.
 4. Open the _Measurements_ menu in the Structure Tools panel.
 5. Select the _Add_ button in the Measurements menu.
