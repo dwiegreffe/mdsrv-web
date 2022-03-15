@@ -207,10 +207,11 @@ Currently, only trajectories in the XTC format can be uploaded.
 2. Open the _Match Trajectory Stream_ menu.
 3. Enter the _Server_ URL where the trajectory is stored (Must be an MDsrv instance).
 4. Import the structure corresponding to the trajectory (see Tutorial <a href="#tutorial-import-structure">Importing a structure</a>).
-5. Select this structure via the _Model_ parameter.
-6. Select the trajectory you want to stream via the _Trajectory_ parameter.
-7. Select _Add Stream Trajectory_.
-8. You can now play your trajectory.
+5. Turn off the visibility for the structure.
+6. Select this structure via the _Model_ parameter.
+7. Select the trajectory you want to stream via the _Trajectory_ parameter.
+8. Select _Add Stream Trajectory_.
+9. You can now play your trajectory.
 
 <center>
     <figure class='video_container'>
