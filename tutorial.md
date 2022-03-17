@@ -14,7 +14,7 @@ You can import a structure by:
     1. Open the _Home_ panel on the left-hand side.
     2. Open the _Open Local Files_ menu in the Home panel.
     3. Select _Select files..._ to choose which of the files you have stored locally to upload.
-        - ou can import multiple files at once.
+        - You can import multiple files at once.
         - If you are importing multiple files at once, that do not have the same format, the Format option should be set to Auto.
         - If you are importing only one file at a time, or if all files have the same format, you can also specify the format of the file. However, in most cases, this is not necessary.
     4. Select the _Apply_ button.
@@ -107,7 +107,7 @@ You can import a trajectory by:
 
 <a name='tutorial-play-trajectory'></a>
 <details>
-    <summary>Play trajectory</summary>
+    <summary>Playing a trajectory</summary>
 
 <p><div markdown="1">
 
@@ -174,7 +174,9 @@ You can share your your in two ways:
     <summary>Upload a trajectory to the MDsrv</summary>
 <p><div markdown="1">
 
-The trajectory you want to store on our server must be publicly available on another server.
+You can save a trajectory to our streaming server if it is too large to visualize in your computer's memory. When you save the trajectory on the streaming server, you can stream it frame by frame, which allows you to visualize the trajectory, which would not be possible otherwise. 
+
+The trajectory you want to store on our streaming server must be publicly available on another server.
 
 1. Open the _Extensions_ panel at the bottom.
 2. Open the _Add Trajectory to Stream Server_ menu.

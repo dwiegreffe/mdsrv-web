@@ -61,13 +61,13 @@ If your structure or trajectory was visible before and now it is not, you may ne
 To visualize your trajectory follow the steps in the tutorials:
 - <a href="tutorial.html#tutorial-import-trajectory">Importing a trajectory</a>
 - <a href="tutorial.html#tutorial-stream-trajectory">Stream a trajectory from the MDsrv</a>
-- <a href="tutorial.html#tutorial-play-trajectory">Play trajectory</a>
+- <a href="tutorial.html#tutorial-play-trajectory">Playing a trajectory</a>
 </div></p></details>
 
 <details>
     <summary>How do I play my trajectory?</summary>
 <p><div markdown="1">
-You can find a detailed description on how to play a trajectory, inluding a video, in the tutorial section under <a href="tutorial.html#tutorial-play-trajectory">Play trajectory</a>.
+You can find a detailed description on how to play a trajectory, inluding a video, in the tutorial section under <a href="tutorial.html#tutorial-play-trajectory">Playing a trajectory</a>.
 </div></p></details>
 
 <details>
@@ -149,6 +149,12 @@ Currently, there is no time limit on how long your session will be available on 
 </div></p></details>
 
 <details>
+    <summary>Can I download and import my session from one server to another? </summary>
+<p><div markdown="1">
+Yes, you can! Simply open your session via _Remote Session_ from the server where you saved it. After you have opened your session, you just need to upload it to the other server where you want to save it via _Remote Session_ menu by changing the _Server Url_.
+</div></p></details>
+
+<details>
     <summary>How can I upload my trajectory to MDsrv?</summary>
 <p><div markdown="1">
 You can upload a trajectory to the MDsrv for streaming. Note that the trajectory must be publicly available on a server. Follow the steps in the tutorial <a href="tutorial.html#tutorial-upload-trajectory">Upload a trajectory to the MDsrv</a>.
@@ -162,6 +168,12 @@ To visualize and share large trajectories, you either need to set up your own se
 To set up your own MDsrv, check out the <a href="install.html">Install</a> page.
 
 To upload the trajectory to our server, check out the tutorial <a href="tutorial.html#tutorial-upload-trajectory">Upload a trajectory to the MDsrv</a>.
+</div></p></details>
+
+<details>
+    <summary>Where is my trajectory stored when I upload it to the MDsrv.</summary>
+<p><div markdown="1">
+When you upload a trajectory using the _Add Trajectory to Streaming Server_ menu in the viewer (frontend) of MDsrv, the trajectory is uploaded and stored on the streaming server.
 </div></p></details>
 
 <details>
@@ -198,6 +210,18 @@ You can find a detailed description on how to add a sequence alinment, inluding 
     <summary>How to align two or more structures based on an already calculated alignment?</summary>
 <p><div markdown="1">
 You can find a detailed description on how to align two or more structures based on an already calculated alignment, inluding a video, in the tutorial section under <a href="tutorial.html#tutorial-alignment">Superpose structures based on a sequence alignment</a>.
+</div></p></details>
+
+<details>
+    <summary>Can I superpose structures and trajectories without having to upload an alignment?</summary>
+<p><div markdown="1">
+Yes.
+1. Import the structures or trajectories you want to superpose. 
+2. Open the _Structure tool_ panel on the right side. 
+3. Open the _Superposition_ menu. 
+4. Choose if you want to superpose by _Chain_ or _Atoms_.
+5. Select the needed structures as described in the _Superposition_ menu.
+6. Select the _Superpose_ button.
 </div></p></details>
 
 <details>
@@ -258,7 +282,7 @@ To make your server globally visible you need a public IP. Otherwise it is only 
     <summary>I want to select a chain or atom and not focus on it. How?</summary>
 <p><div markdown="1">
 
-If you are trying to select a structures, but he camera is always focusing on it, you forgot to toggle the _Selction Mode_. To active the _Selection Mode_, click the _Toggle Selection Mode_ button (check out the FAQ on <a href="#faq_selection_mode_button">Where do I find the <i>Toggle Selection Mode</i> button?</a>). The _Selection Mode_ is active as long as the _Selection Mode Menu_ is visible at the top of the white canvas. 
+If you are trying to select a structures, but the camera is always focusing on it, you forgot to toggle the _Selction Mode_. To active the _Selection Mode_, click the _Toggle Selection Mode_ button (check out the FAQ on <a href="#faq_selection_mode_button">Where do I find the <i>Toggle Selection Mode</i> button?</a>). The _Selection Mode_ is active as long as the _Selection Mode Menu_ is visible at the top of the white canvas. 
 <center><img src='images/selection_menu.png'></center>
 </div></p></details>
 
