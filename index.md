@@ -5,6 +5,11 @@ title: MDsrv
 
 MDsrv is a web tool for interactive and remote exploration of trajectories. Interactive visualization of MD trajectories provides an instant, transparent, and intuitive understanding of  complex dynamics, while sharing of MD trajectories may generate transparency and trust, allowing collaboration, knowledge exchange, and data reuse.
 
+You can
+- Visualize & share your data via the web without the need to install any software
+- Stream a trajectory from our MDsrv instance (Streaming Server) if it is too large to fit in your computer’s memory (when visualizing directly through the frontend)
+- Set up your own MDsrv instance for sharing your sessions
+
 
 <center><button onclick="window.location.href ='https://proteininformatics.informatik.uni-leipzig.de/?session-url=https%3A%2F%2Fremote.sca-ds.de%2Fget%2Fsession%2F80de2863-618b-4e4d-b811-316027fed991'">Start Demo Session</button></center>  
   
