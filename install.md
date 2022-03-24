@@ -10,7 +10,15 @@ We provide up-to-date images of the viewer (frontend) and streaming server avail
 
 - [Viewer (frontend)](https://hub.docker.com/r/dwiegreffe/mdsrv-viewer)
 
+Start it with "docker run -p 80:4242 dwiegreffe/mdsrv-viewer"
+
 - [Streaming Server](https://hub.docker.com/r/dwiegreffe/mdsrv-remote)
+
+Start it with "docker run -p 8080:1337 dwiegreffe/mdsrv-remote"
+
+If the data should be persistent, the container must be started with the following command:
+
+"docker run  -p 8080:1337  -v /path/on/the/host:/molstar/server dwiegreffe/mdsrv-remote"
 
 The images can also be created with the following instructions: 
 
