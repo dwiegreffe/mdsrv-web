@@ -10,7 +10,11 @@ We provide up-to-date images of the viewer (frontend) and streaming server avail
 
 - [Viewer (frontend)](https://hub.docker.com/r/dwiegreffe/mdsrv-viewer)
 
-Start it with "docker run -p 80:4242 dwiegreffe/mdsrv-viewer"
+Start it with "docker run  -p 80:4242   dwiegreffe/mdsrv-viewer https://remote.sca-ds.de"
+
+If you want to use a different streaming server as default, start it with
+
+"docker run  -p 80:4242   dwiegreffe/mdsrv-viewer your-url.here"
 
 - [Streaming Server](https://hub.docker.com/r/dwiegreffe/mdsrv-remote)
 
