@@ -18,7 +18,7 @@ Start it with "docker run -p 8080:1337 dwiegreffe/mdsrv-remote"
 
 If the data should be persistent, the container must be started with the following command:
 
-"docker run  -p 8080:1337  -v /path/on/the/host:/molstar/server dwiegreffe/mdsrv-remote"
+"docker run  -p 8080:1337  -v /path/on/the/host:/mdsrv/server dwiegreffe/mdsrv-remote"
 
 The images can also be created with the following instructions: 
 
