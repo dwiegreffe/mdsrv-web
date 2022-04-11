@@ -267,7 +267,7 @@ Currently, only trajectories in the XTC format can be uploaded.
 3. Open the _Structure Tools_ panel on the right side.
 4. Open the _Measurements_ menu in the Structure Tools panel.
 5. Select the _Add_ button in the Measurements menu.
-6. Activate the selection mode by clicking the last button of the buttons on the right side of the white canvas where the structure is displayed (_Toggle Selection Mode_).
+6. Activate the selection mode by clicking on the mouse pointer icon on the top right side of the white canvas where the structure is displayed (_Toggle Selection Mode_).
 7. An additional menu appears at the top of the white canvas.
 8. Select the button labeled _Residue_ to change the granularity of the selection.
 9. Select the desired elements to add a measurement (two for distance, three for angle, four for area angle). The selected elements will be displayed in a list in the _Measurements_ menu on the right side.
