@@ -49,6 +49,7 @@ You can import a structure by:
     4. Select the correct format of the file for the _Format_ parameter.
     5. Set the _Binary_ parameter to On, if the file is binary.
     6. Select the _Apply_ button.
+    - **Note:** If you have deployed the client on your local machine, you can also import files that are available on your local network.
     
 <center>
     <figure class='video_container'>
@@ -94,6 +95,7 @@ You can import a trajectory by:
     5. Specify the format for each file in the _Format_ parameter underneath it.
     6. Specify, if the _Model_ file is _Binary_.
     7. After selecing the two files and setting their parameters, select _Apply_ to import the trajectory.
+    - **Note:** If you have deployed the client on your local machine, you can also import files that are available on your local network.
 
 <center>
     <figure class='video_container'>
