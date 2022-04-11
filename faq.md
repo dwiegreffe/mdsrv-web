@@ -40,6 +40,12 @@ It is possible to directly import data from public data bases like the PDB. Just
 </div></p></details>
 
 <details>
+    <summary>Can I import files from my local network?</summary>
+<p><div markdown="1">
+If you have the client deployed on your local machine, it is possible to import files from your local network using the _Open Remote Files_ feature.
+</div></p></details>
+
+<details>
     <summary>I imported my trajectory file, but nothing is showing. Why?</summary>
 <p><div markdown="1">
 It is not possible to visualize your coordinate file if you imported it via the _Open Local Files_ or _Open Remote File_ menu.
