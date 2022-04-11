@@ -13,6 +13,15 @@ title: MDsrv
 You can find a detailed description on how to import structures and trajectories, inluding a video, in the tutorial section under:
 - <a href="tutorial.html#tutorial-import-structure">Importing a structure</a>
 - <a href="tutorial.html#tutorial-import-trajectory">Importing a trajectory</a>
+
+There are several ways how a structure or a trajectory can be imported:
+- **Open Local Files**: Import files that you have stored locally on your computer.
+- **Open Remote Files**: Import files that are publicly available on a server. If you run the client locally on your computer, you can also import files from your local network this way.
+- **Open Remote Structures**: Import strucures from public databases like the PDB using an identifier.
+- **Open Remote Desity**: Import desities from public databases.
+- **Load Trajectories**: Import trajectories by providing the files (structure and coordinates) from your local computer or by providing files that are publicly available on a server.
+- **Zenodo Import**: Files from the Zenodo server cannot be imported using the above options. If you want to import Zenodo files, you must use this option and specify the record number for the files you want to import. Using this option all files of the record will be stored in the memory of your computer. If the files are too large, see: <a href="#faq-zenodo-large">The Zenodo record is too large to be held in my memory. How can I display the data?</a>.
+
 </div></p></details>
 
 <details>
@@ -168,6 +177,14 @@ To visualize and share large trajectories, you either need to set up your own se
 To set up your own MDsrv, check out the <a href="install.html">Install</a> page.
 
 To upload the trajectory to our server, check out the tutorial <a href="tutorial.html#tutorial-upload-trajectory">Upload a trajectory to the MDsrv</a>.
+</div></p></details>
+
+<a name='faq-zenodo-large'></a>
+<details>
+    <summary>The Zenodo record is too large to be held in my memory. How can I display the data?</summary>
+<p><div markdown="1">
+If the trajectory files in the dataset are too large to be stored in your memory, you can upload the trajectory to the MDsrv to stream it from there: <a href="tutorial.html#tutorial-upload-trajectory">Upload a trajectory to the MDsrv</a>. 
+After uploading the trajectory to the server, import the structure from Zenodo and match the trajectory stream to this structure: <a href="tutorial.html#tutorial-stream-trajectory">Stream a trajectory from the MDsrv</a>. 
 </div></p></details>
 
 <details>
