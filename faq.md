@@ -46,6 +46,12 @@ If you have the client deployed on your local machine, it is possible to import 
 </div></p></details>
 
 <details>
+    <summary>How can I import data from Zenodo?</summary>
+<p><div markdown="1">
+You can import data directly from Zenodo using the _Zenodo Import_ feature in the _Home Panel_ on the left. You just need to specify the _Record ID_ of the data and click the _Load Record_ button. After loading the files of the record, you can select which files you want to import. Select _Import File_ to load the data. (If you are importing a trajectory, you must specify a file for the topology and a file for the coordinates).
+</div></p></details>
+
+<details>
     <summary>I imported my trajectory file, but nothing is showing. Why?</summary>
 <p><div markdown="1">
 It is not possible to visualize your coordinate file if you imported it via the _Open Local Files_ or _Open Remote File_ menu.
@@ -190,7 +196,7 @@ To upload the trajectory to our server, check out the tutorial <a href="tutorial
     <summary>The Zenodo record is too large to be held in my memory. How can I display the data?</summary>
 <p><div markdown="1">
 If the trajectory files in the dataset are too large to be stored in your memory, you can upload the trajectory to the MDsrv to stream it from there: <a href="tutorial.html#tutorial-upload-trajectory">Upload a trajectory to the MDsrv</a>. 
-After uploading the trajectory to the server, import the structure from Zenodo and match the trajectory stream to this structure: <a href="tutorial.html#tutorial-stream-trajectory">Stream a trajectory from the MDsrv</a>. 
+After uploading the trajectory to the server, import the structure from Zenodo (using the _Zenodo Import_) and match the trajectory stream to this structure: <a href="tutorial.html#tutorial-stream-trajectory">Stream a trajectory from the MDsrv</a>. 
 </div></p></details>
 
 <details>
