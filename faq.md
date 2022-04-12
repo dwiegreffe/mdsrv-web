@@ -52,6 +52,16 @@ You can import data directly from Zenodo using the _Zenodo Import_ feature in th
 </div></p></details>
 
 <details>
+    <summary>I tried to import data using an URL but it does not work. Why?</summary>
+<p><div markdown="1">
+The files of some websites cannot be accessed without an API. An error is displayed in the log window: _Failed to download data. Possible reasons: Resource is not available, or CORS is not allowed on the server._
+
+For example, this error occurs when you try to import data from Zenodo using the _Open Remote File_ feature. The solution is to use the _Zenodo Import_ in the same panel.
+
+If you are trying to import data from a website and this error occurs, it is possible that the files need to be accessed via an API and this function is not yet implemented. 
+</div></p></details>
+
+<details>
     <summary>I imported my trajectory file, but nothing is showing. Why?</summary>
 <p><div markdown="1">
 It is not possible to visualize your coordinate file if you imported it via the _Open Local Files_ or _Open Remote File_ menu.
