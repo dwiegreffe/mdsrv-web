@@ -252,7 +252,7 @@ You can find a detailed description on how to add a sequence alinment, inluding 
 </div></p></details>
 
 <details>
-    <summary>How to align two or more structures based on an already calculated alignment?</summary>
+    <summary>How to superpose two or more structures based on an already calculated alignment?</summary>
 <p><div markdown="1">
 You can find a detailed description on how to align two or more structures based on an already calculated alignment, inluding a video, in the tutorial section under <a href="tutorial.html#tutorial-alignment">Superpose structures based on a sequence alignment</a>.
 </div></p></details>
