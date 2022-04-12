@@ -85,6 +85,12 @@ If you imported a coordinate file of a trajectory, it will not be possible to vi
 If your structure or trajectory was visible before and now it is not, you may need to check the _State Tree_ to see if your structure or trajectory is still available. If you can find your structure or trajectory, check the _visibility toggle_ (eye icon) and turn it on if necessary. If your structure or trajectory is no longer available, you will need to import it again.
 </div></p></details>
 
+<details>
+    <summary>What does 'publicly available on another server' mean?</summary>
+<p><div markdown="1">
+Publicly accessible on another server means that this file can be accessed from anywhere on the internet. This does not apply, for example, to a file on a local network. If you try to import a file from a local network that is not accessible from outside into our MDsrv instance, it will not work. However, if you have MDsrv running on that local network, it is possible to import the files from the local network.
+</div></p></details>
+
 <a name='faq-vis-traj'></a>
 <details>
     <summary>How can I visualize my trajectory?</summary>
