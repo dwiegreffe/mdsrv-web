@@ -49,7 +49,7 @@ A description of Docker and how to use it can be found here:
 <p><div markdown="1">
 If you do not want to add the trajectory via the GUI, you can also do this by adjusting the configuration of the streaming server.
 
-1. Add your trajectory into the trajectory folder of your server.
+1. Add your trajectory file into the trajectory folder of your server.
 2. Update the trajectory_index.json. 
 An entry has the following format:
 ```
@@ -61,8 +61,12 @@ An entry has the following format:
 }
 ```
 
-Whereas the id ```example_id``` must be the name of the trajectory file in the trajectory directory, and the id must be unique.
-Currently, only trajectories in the XTC format can be streamed.
+- ```timestamp```: Numerical value of the date when the entry was created.
+- ```id```: ```example_id``` must be the name of the trajectory file in the trajectory directory. The ```example_id``` must be unique and added without the filename extension.
+- ```name```: The name which is displayed for the trajectory in the GUI.
+- ```description```: More detailed description.
+
+Note: Currently, only trajectories in the XTC format can be streamed.
 </div></p></details>
 
 <details>
@@ -70,7 +74,7 @@ Currently, only trajectories in the XTC format can be streamed.
 <p><div markdown="1">
 If you want to add a saved session to the server without using the GUI, you can also do so by customizing the streaming server configuration.
 
-1. Add your session into the session folder of your server.
+1. Add your session file into the session folder of your server.
 2. Update the session_index.json. 
 An entry has the following format:
 ```
@@ -84,9 +88,10 @@ An entry has the following format:
 }
 ```
 
-Whereas the id ```example_id``` must be the name of the session file in the session directory, and the id must be unique.
-
-The ```version``` parameter describes the version of the viewer in which the session was created. It is important to specify the correct version so that you can open the session later with the correct version of the viewer in case some functions are deprecated.
-
-The ```isSticky``` parameter allows you to put a session on the server which cannot be deleted by another user via the GUI using the delete button. This parameter is optional and must be added only if it is set to true.
+- ```timestamp```: Numerical value of the date when the entry was created.
+- ```id```: ```example_id``` must be the name of the session file in the session directory. The ```example_id``` must be unique and added without the filename extension.
+- ```name```: The name which is displayed for the session in the GUI.
+- ```description```: More detailed description.
+- ```version```: Describes the version of the viewer in which the session was created. It is important to specify the correct version so that you can open the session later with the correct version of the viewer in case some functions are deprecated.
+- ```isSticky```: Flags a session on the server which cannot be deleted by another user via the GUI using the delete button. This parameter is optional and must be added only if it is set to true.
 </div></p></details>
