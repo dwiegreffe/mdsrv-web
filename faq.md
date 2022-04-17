@@ -52,6 +52,17 @@ You can import data directly from Zenodo using the _Zenodo Import_ feature in th
 </div></p></details>
 
 <details>
+    <summary>How should I upload my data to Zenodo to optimize the processing of this data with MDsrv?</summary>
+<p><div markdown="1">    
+MDsrv can process the data from a Zenodo record, whether the files are stored as a compressed zip archive or as single files. 
+
+- Zip: If the data is stored in a zip archive, all the files contained in this archive will be imported at the same time. It is not possible to select which of the files in the zip archive should be imported. 
+- Single files: If the data is saved as individual files, it is possible to select which of the files should be imported. 
+
+Therefore, we would currently recommend uploading the data files individually to Zenodo in order to have better control over which files can be imported with the current version of MDsrv.
+</div></p></details>
+
+<details>
     <summary>I tried to import data using an URL but it does not work. Why?</summary>
 <p><div markdown="1">
 The files of some websites cannot be accessed without an API. An error is displayed in the log window: _Failed to download data. Possible reasons: Resource is not available, or CORS is not allowed on the server._
