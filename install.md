@@ -24,6 +24,8 @@ If the data should be persistent, the container must be started with the followi
 
 "docker run  -p 8080:1337  -v /path/on/the/host:/mdsrv/server dwiegreffe/mdsrv-remote"
 
+(Note: /path/on/the/host is the path where you want the server to be stored on your machine. This is also the directory where you can manually change the data on the server, like adding trajectories or sessions.)
+
 If you want to stop the containers, the most reliable way is to use the command 'docker stop container-id". 
 
 You can get the container ID for example with the command 'docker ps'. An example output is
