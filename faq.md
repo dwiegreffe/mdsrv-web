@@ -463,6 +463,50 @@ There are several ways you can customize your session:
 For further details on possible customization options, please refert to the [documentation of Mol*](https://molstar.org/viewer-docs/).
 </div></p></details>
 
+<details>
+    <summary>How fast can MDsrv stream a trajectory?</summary>
+<p><div markdown="1">
+We have tested the performance on 3 devices under the same conditions. The devices were connected to a local network via Ethernet and connected to the Internet with a connection of 100Mbit/s download per second. For the tests the browser Chrome was used on the devices.
+The MDsrv servers were publicly accessible via the Internet and connected to the Internet with 1Gbit/s upload.
+
+Device 1 is a high end client device (Intel Core i7-9750H, 64GB RAM, NVIDIA 2070RTX, Ubuntu 20.04). 
+Device 2 is a standard client device (Intel Core i5-6200U, 8GB RAM, iGPU, ChromeOS).
+Device 3 is a low end client device (Intel Pentium CPU 4415Y, 8GB RAM, iGPU, Windows 10)
+
+We benchmarked the time to initialize and, if applicable, the time to stream frames of a trajectory for multiple sessions.
+
+
+|      Highend      | Initialization time | Initialization size | Frame time | Framesize |
+|:-----------------:|:-------------------:|:-------------------:|:----------:|:---------:|
+|    Cholesterol    |       15000 ms      |        115MB        |      -     |     -     |
+|   md_1u19 direct  |        471ms        |        3.3MB        |      -     |     -     |
+| md_1u19 streaming |         89ms        |        142KB        |    41ms    |    47b    |
+|     eq7_1_apo     |        371ms        |        2.3MB        |    41ms    |    90KB   |
+| Trajectory Stream |        107ms        |         98KB        |    87ms    |   101KB   |
+
+|      Standard     | Initialization time | Initialization size | Frame time | Framesize |
+|:-----------------:|:-------------------:|:-------------------:|:----------:|:---------:|
+|    Cholesterol    |       14310 ms      |        115MB        |      -     |     -     |
+|   md_1u19 direct  |        459ms        |        3.3MB        |      -     |     -     |
+| md_1u19 streaming |        101ms        |        142KB        |    86ms    |    47b    |
+|     eq7_1_apo     |        403ms        |        2.3MB        |    76ms    |    90KB   |
+| Trajectory Stream |         91ms        |         98KB        |    95ms    |   101KB   |
+
+|      Lowend     | Initialization time | Initialization size | Frame time | Framesize |
+|:-----------------:|:-------------------:|:-------------------:|:----------:|:---------:|
+|    Cholesterol    |       33950 ms      |        115MB        |      -     |     -     |
+|   md_1u19 direct  |        828ms        |        3.3MB        |      -     |     -     |
+| md_1u19 streaming |        152ms        |        142KB        |    98ms    |    47b    |
+|     eq7_1_apo     |        623ms        |        2.3MB        |    85ms    |    90KB   |
+| Trajectory Stream |        192ms        |         98KB        |    87ms    |   101KB   |
+
+The data shows that the time it takes to load a frame does not differ much between the devices, but it is noticeable that the time it takes to load the session 'Cholesterol' on the low-end device is much longer than on the other devices. However, this is due to the fact that the session is not streamed but has to be completely loaded locally into the frontend. Here the performance limitations of the low end device become visible.
+The 4.5 GB session 'Trajectory Stream', in contrast, can be used on the low end device without major performance losses. 
+
+
+</div></p></details>
+
+
 </div>
 
 If you have any further questions, please send an e-mail to: kampfrath@informatik.uni-leipzig.de 
