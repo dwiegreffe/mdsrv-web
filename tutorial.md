@@ -153,12 +153,18 @@ You can share your your in two ways:
     2. Prepare your session as desired.
     3. Open the _Remote Session_ menu in the _Extensions_ panel at the bottom.
     4. Name your session.
-        - Optional: Enter a description by opening the _Options_ area.
         - Optional: Change the server address.
+        - Optional: Enter a description.
+        - Optional: Enter a source for the data in the session.
     5. Select the _Upload_ button.
-    6. To share your session with others, right-click your session to open it in a new tab with its URL.
-    7. Share this URL.
+    6. A message is displayed next to the _Upload_ button if the upload was successful.
+    7. Open the _Home_ panel on the left side.
+    8. _Refresh_ the server url where the session was saved.
+    9. The session will now appear in the list.
+    10. To share your session with others, right-click your session to open it in a new tab with its URL.
+    11. Share this URL.
 
+<!---
 <center>
     <figure class='video_container'>
         <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/share_session_our_server.png'>
@@ -166,6 +172,7 @@ You can share your your in two ways:
         </video>
     </figure>
 </center>
+--->
 
 - Setting up your own MDsrv, see <a href="install.html#install">How do I install a MDsrv server on my machine (Setting up your own server and viewer)?</a>.
 

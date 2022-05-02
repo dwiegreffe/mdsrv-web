@@ -57,7 +57,8 @@ An entry has the following format:
     "timestamp": 123,
     "id": "example_id",
     "name": "example_name",
-    "description": "example_description"
+    "description": "example_description",
+    "source": "example_source"
 }
 ```
 
@@ -65,6 +66,7 @@ An entry has the following format:
 - ```id```: ```example_id``` must be the name of the trajectory file in the trajectory directory. The ```example_id``` must be unique and added without the filename extension.
 - ```name```: The name which is displayed for the trajectory in the GUI.
 - ```description```: More detailed description.
+- ```source```: Flag for the source of the data in the session.
 
 Note: Currently, only trajectories in the XTC format can be streamed.
 </div></p></details>
@@ -83,6 +85,7 @@ An entry has the following format:
     "id": "example_id",
     "name": "example_name",
     "description": "example_description",
+    "source": "example_source",
     "version": "3.4.0",
     "isSticky": true
 }
@@ -92,6 +95,7 @@ An entry has the following format:
 - ```id```: ```example_id``` must be the name of the session file in the session directory. The ```example_id``` must be unique and added without the filename extension.
 - ```name```: The name which is displayed for the session in the GUI.
 - ```description```: More detailed description.
+- ```source```: Flag for the source of the data in the session.
 - ```version```: Describes the version of the viewer in which the session was created. It is important to specify the correct version so that you can open the session later with the correct version of the viewer in case some functions are deprecated.
 - ```isSticky```: Flags a session on the server which cannot be deleted by another user via the GUI using the delete button. This parameter is optional and must be added only if it is set to true.
 </div></p></details>
