@@ -8,7 +8,7 @@ title: MDsrv
 
 <!-- Import data  -->
 
-## Import data
+<h2> Import data </h2>
 
 <a name='faq-import'></a>
 <details>
@@ -102,7 +102,7 @@ After uploading the trajectory to the server, import the structure from Zenodo (
 
 <!-- trajectories -->
 
-## Trajectories
+<h2> Trajectories </h2>
 
 <details>
     <summary>I tried to import data using an URL but it does not work. Why?</summary>
@@ -177,7 +177,7 @@ You can also look at the FAQ: <a href="#faq-visibility">How do I change the visi
 
 <!-- trajectory streaming -->
 
-## Trajectory streaming
+<h2> Trajectory streaming </h2>
 
 <details>
     <summary>How can I upload my trajectory to MDsrv?</summary>
@@ -226,7 +226,7 @@ You can also set up your own MDsrv to stream the trajectory. Check out the <a hr
 
 <!-- session -->
 
-## Sessions
+<h2> Sessions </h2>
 
 <a name='faq-share-session'></a>
 <details>
@@ -330,7 +330,7 @@ If your data has been used for a session and you would like the session to be de
 
 <!-- alignment -->
 
-## Alignment
+<h2> Alignment </h2>
 
 <details>
     <summary>How can I import an alignment?</summary>
@@ -374,6 +374,8 @@ Yes.
 
 
 <!-- plot and measurement -->
+
+<h2> Time-trace and measurements </h2>
 
 <details>
     <summary>How do I add a measurement?</summary>
@@ -424,7 +426,7 @@ To fix your problem, check out the steps in FAQ: <a href="#faq_measurement_fix">
 
 <!-- other -->
 
-## Other
+<h2> Other </h2>
 
 <details>
     <summary>Do I need a public IP to share data with the world?</summary>
