@@ -164,7 +164,6 @@ You can share your your in two ways:
     10. To share your session with others, right-click your session to open it in a new tab with its URL.
     11. Share this URL.
 
-<!---
 <center>
     <figure class='video_container'>
         <video width='75%' controls='true' allowfullscreen='true' poster='./videos/poster/share_session_our_server.png'>
@@ -172,7 +171,6 @@ You can share your your in two ways:
         </video>
     </figure>
 </center>
---->
 
 - Setting up your own MDsrv, see <a href="install.html#install">How do I install a MDsrv server on my machine (Setting up your own server and viewer)?</a>.
 
